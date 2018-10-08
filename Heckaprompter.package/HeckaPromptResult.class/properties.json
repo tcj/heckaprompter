@@ -1,0 +1,17 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"clipart",
+		"blurb",
+		"text" ],
+	"name" : "HeckaPromptResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

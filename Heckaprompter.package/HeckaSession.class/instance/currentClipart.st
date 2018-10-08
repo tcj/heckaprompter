@@ -1,0 +1,4 @@
+accessing
+currentClipart
+
+	^ currentClipart

@@ -1,0 +1,16 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"source",
+		"storage",
+		"contents" ],
+	"name" : "HeckaBlurb",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

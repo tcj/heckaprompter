@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"canBeRoot" : "tcj 10/7/2018 17:04",
+		"description" : "tcj 10/7/2018 17:04",
+		"initialize" : "tcj 10/7/2018 19:01" },
+	"instance" : {
+		"children" : "tcj 10/7/2018 21:27",
+		"clipartFile" : "tcj 10/7/2018 17:02",
+		"clipartFile:" : "tcj 10/7/2018 17:02",
+		"imageWidth" : "tcj 10/7/2018 18:43",
+		"imageWidth:" : "tcj 10/7/2018 18:43",
+		"initialize" : "tcj 10/7/2018 21:26",
+		"menuComponent" : "tcj 10/7/2018 21:27",
+		"menuComponent:" : "tcj 10/7/2018 21:27",
+		"renderClipartOn:" : "tcj 10/7/2018 22:08",
+		"renderContentOn:" : "tcj 10/7/2018 21:49",
+		"style" : "tcj 10/7/2018 22:30",
+		"urlForClipart:" : "tcj 10/7/2018 21:14" } }

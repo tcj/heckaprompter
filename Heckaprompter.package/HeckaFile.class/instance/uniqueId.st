@@ -1,0 +1,4 @@
+accessing
+uniqueId
+	^ self fileName
+	

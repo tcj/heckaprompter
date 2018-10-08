@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 10/7/2018 22:49",
+	"instvars" : [
+		 ],
+	"name" : "HeckaClipartFileRegistry",
+	"pools" : [
+		 ],
+	"super" : "HeckaFileRegistry",
+	"type" : "normal" }
