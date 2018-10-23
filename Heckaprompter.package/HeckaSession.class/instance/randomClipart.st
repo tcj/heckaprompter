@@ -1,4 +1,4 @@
-as yet unclassified
+clipart
 randomClipart
 	^ self clipartRegistry randomClipart.
 

@@ -7,13 +7,20 @@ initialize
 		
 	application configuration 
 		addParent: HeckaConfiguration instance.
-"
+
 	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
 	application 
-		addLibrary: JQDeploymentLibrary;
-		addLibrary: JQAllFunctionalTestsLibrary.
-"
+		addLibrary: JQDevelopmentLibrary;
+		addLibrary: JQUiDevelopmentLibrary;
+		addLibrary: HeckaStyleLibrary.
+
+"	application
+		addLibrary: PTDevelopmentLibrary;
+		addLibrary: SUDevelopmentLibrary."
+"		addLibrary: SUComponentLibrary"
+"		addLibrary: SUAllTestLibrary"
+
 
 "
 HeckaPrompterComponent initialize.

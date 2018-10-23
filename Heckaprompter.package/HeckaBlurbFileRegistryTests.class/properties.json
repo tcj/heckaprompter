@@ -1,0 +1,15 @@
+{
+	"category" : "Heckaprompter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"registry",
+		"blurb" ],
+	"name" : "HeckaBlurbFileRegistryTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

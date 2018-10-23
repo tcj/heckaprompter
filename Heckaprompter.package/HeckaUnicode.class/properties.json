@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaUnicode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

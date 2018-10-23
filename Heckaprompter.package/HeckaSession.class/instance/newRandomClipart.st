@@ -1,3 +1,3 @@
-as yet unclassified
+clipart
 newRandomClipart
 	currentClipart := self randomClipart

@@ -1,0 +1,1 @@
+If selectedUser is nil, show for all users

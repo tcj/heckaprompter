@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "tcj 10/7/2018 22:49",
 	"instvars" : [
-		"files" ],
+		"files",
+		"path" ],
 	"name" : "HeckaFileRegistry",
 	"pools" : [
 		 ],

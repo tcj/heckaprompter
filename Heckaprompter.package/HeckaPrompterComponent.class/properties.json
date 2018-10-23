@@ -6,9 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clipartFile",
-		"imageWidth",
-		"menuComponent" ],
+		"theme",
+		"menuComponent",
+		"blurbInfoComponent",
+		"clipartInfoComponent",
+		"clipartInfoId",
+		"blurbInfoId",
+		"textEntryComponent",
+		"browseComponent" ],
 	"name" : "HeckaPrompterComponent",
 	"pools" : [
 		 ],

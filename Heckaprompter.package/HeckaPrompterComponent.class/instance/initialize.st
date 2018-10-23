@@ -1,5 +1,9 @@
-rendering
+initialize-release
 initialize
 	super initialize.
 	menuComponent := HeckaMenuComponent new.
-	imageWidth := 256.
+	textEntryComponent := HeckaTextEntryComponent new.
+	browseComponent := HeckaBrowserComponent new.
+
+"	self currentComponent: self textEntryComponent."
+"	theme := JQBaseTheme default."

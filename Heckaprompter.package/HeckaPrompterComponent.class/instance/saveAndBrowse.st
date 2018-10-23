@@ -1,0 +1,4 @@
+callbacks
+saveAndBrowse
+	self saveText.
+	

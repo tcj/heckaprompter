@@ -1,15 +1,20 @@
 {
 	"class" : {
 		"fileClass" : "tcj 10/7/2018 22:38",
-		"newFromDirectoryNamed:" : "tcj 10/7/2018 22:49",
-		"sample" : "tcj 10/7/2018 16:59",
+		"newFromDirectoryNamed:" : "tcj 10/22/2018 18:17",
+		"newOn:" : "tcj 10/8/2018 13:04",
+		"sample" : "tcj 10/8/2018 13:11",
+		"samplePath" : "tcj 10/8/2018 13:07",
 		"wildcard" : "tcj 10/7/2018 22:48" },
 	"instance" : {
 		"addFile:" : "tcj 10/7/2018 22:42",
+		"fileAtId:" : "tcj 10/21/2018 23:08",
 		"files" : "tcj 10/7/2018 22:41",
 		"files:" : "tcj 10/7/2018 22:41",
 		"initialize" : "tcj 10/7/2018 22:42",
-		"randomClipart" : "tcj 10/7/2018 19:28",
+		"path" : "tcj 10/8/2018 13:04",
+		"path:" : "tcj 10/8/2018 13:04",
 		"randomFile" : "tcj 10/7/2018 22:43",
 		"randomFileName" : "tcj 10/7/2018 22:42",
+		"randomFileNameWithPath" : "tcj 10/8/2018 23:40",
 		"release" : "tcj 10/8/2018 08:01" } }

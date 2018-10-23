@@ -1,4 +1,3 @@
-accessing
+queries
 fileName
-
-	^ fileName
+	^ self dirent name

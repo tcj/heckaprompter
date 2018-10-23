@@ -1,0 +1,15 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 10/21/2018 17:31",
+	"instvars" : [
+		"selectedUser",
+		"texts" ],
+	"name" : "HeckaBrowserComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

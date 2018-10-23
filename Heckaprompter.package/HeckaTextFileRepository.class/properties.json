@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"fd" ],
+	"name" : "HeckaTextFileRepository",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

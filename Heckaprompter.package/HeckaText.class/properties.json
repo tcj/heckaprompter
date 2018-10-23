@@ -1,0 +1,17 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 10/21/2018 16:23",
+	"instvars" : [
+		"userId",
+		"clipartId",
+		"blurbId",
+		"text" ],
+	"name" : "HeckaText",
+	"pools" : [
+		 ],
+	"super" : "SDActiveRecord",
+	"type" : "normal" }

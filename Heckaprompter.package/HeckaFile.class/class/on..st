@@ -1,3 +1,5 @@
 instance creation
 on: fullPathAndName
-	^ self new fileName: fullPathAndName; yourself
+	^ self basicNew 
+		dirent: (FileDirectory directoryEntryFor: fullPathAndName); 
+		yourself

@@ -1,0 +1,4 @@
+accessing
+blurbRegistry
+
+	^ blurbRegistry

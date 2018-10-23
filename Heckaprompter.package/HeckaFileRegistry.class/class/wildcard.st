@@ -1,3 +1,3 @@
-as yet unclassified
+subclass creation
 wildcard
 	^ '*.', self fileClass fileSuffix

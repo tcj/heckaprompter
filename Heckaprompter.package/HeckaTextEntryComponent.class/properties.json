@@ -1,0 +1,21 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"theme",
+		"objectId",
+		"clipartFile",
+		"imageWidth",
+		"blurbInfoComponent",
+		"clipartInfoComponent",
+		"clipartInfoId",
+		"blurbInfoId" ],
+	"name" : "HeckaTextEntryComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

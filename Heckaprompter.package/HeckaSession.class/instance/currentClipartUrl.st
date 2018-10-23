@@ -1,3 +1,3 @@
-as yet unclassified
+clipart
 currentClipartUrl
-	^ self application preferenceAt: #heckaBareURL, '/', currentClipart fileName
+	^ self urlForClipart: self currentClipart

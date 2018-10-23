@@ -1,3 +1,3 @@
-as yet unclassified
+subclass creation
 sample
-	^ self newFromDirectoryNamed: '/Library/WebServer/Documents/svg'
+	^ self newFromDirectoryNamed: self samplePath

@@ -1,0 +1,1 @@
+I store references to the clipart and blurbs I reference.  Otherwise the BlurbFile and ClipartFile would get stored in the SD repo.
