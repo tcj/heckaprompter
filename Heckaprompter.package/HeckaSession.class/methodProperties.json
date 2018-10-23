@@ -2,8 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"blurb" : "tcj 10/7/2018 17:09",
-		"blurb:" : "tcj 10/7/2018 17:09",
+		"allTextsForCurrentStatus" : "tcj 10/22/2018 18:48",
 		"blurbRegistry" : "tcj 10/8/2018 12:43",
 		"blurbRegistry:" : "tcj 10/8/2018 12:43",
 		"clipartForBrowser" : "tcj 10/21/2018 23:04",
@@ -19,8 +18,8 @@
 		"initialize" : "tcj 10/21/2018 17:43",
 		"makeActive:" : "tcj 10/21/2018 18:17",
 		"newEverything" : "tcj 10/21/2018 20:22",
-		"newRandomBlurb" : "tcj 10/8/2018 12:52",
-		"newRandomClipart" : "tcj 10/7/2018 21:11",
+		"newRandomBlurb" : "tcj 10/22/2018 20:06",
+		"newRandomClipart" : "tcj 10/22/2018 20:06",
 		"newText" : "tcj 10/21/2018 20:22",
 		"randomBlurb" : "tcj 10/8/2018 12:43",
 		"randomClipart" : "tcj 10/7/2018 21:09",

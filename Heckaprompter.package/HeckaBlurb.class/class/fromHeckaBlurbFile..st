@@ -4,5 +4,6 @@ fromHeckaBlurbFile: aHeckaBlurbFile
 	lines := aHeckaBlurbFile lines.
 	^ self new 
 		source: (HeckaSource fromString: lines removeFirst);
-		storage: self;
-		contents: lines second.
+		storage: aHeckaBlurbFile;
+		contents: lines second;
+		yourself.

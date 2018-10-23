@@ -1,11 +1,9 @@
-unused
+rendering
 renderBlurbOn: html
-	html heading
-		level: 2;
-		with: (self session currentBlurb contents).
-	html paragraph
-		class: 'blurbskip';
-		with: [
+	html figureCaption
+		class: 'blurbtext';
+		with: [ html heading level: 2; with: self session currentBlurb contents  ].
+	html figureCaption: [ 
 		html anchor
-			callback: [ self session newRandomBlurb ];
-			with: [html text: 'skip'] ].
+		callback: [ self session newRandomBlurb];
+		with: [html text: 'skip'] ]

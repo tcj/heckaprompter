@@ -1,3 +1,4 @@
 blurb
 newRandomBlurb
-	currentBlurb := self randomBlurb
+	currentBlurb := self randomBlurb.
+	self text blurb: currentBlurb.

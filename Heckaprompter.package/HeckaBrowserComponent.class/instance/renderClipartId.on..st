@@ -4,7 +4,7 @@ renderClipartId: clipartId on: html
 	svg := self session clipartRegistry fileAtId: clipartId.
 	html anchor
 		class: 'svg';
-		callback: [ Transcript show: 'huzzah'. self chooseClipart: svg ];
+		callback: [ self chooseClipart: svg ];
 		with: [
 			html object 
 				class: 'chooserClipartItem';

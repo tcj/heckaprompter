@@ -1,6 +1,7 @@
 as yet unclassified
 randomFileNameWithPath
 	| fn |
+	self flag: #uhoh.
 	fn := self files keys atRandom.
 	^ ((fn findString: '/') = 0)
 		ifTrue: [

@@ -1,3 +1,4 @@
 clipart
 newRandomClipart
-	currentClipart := self randomClipart
+	currentClipart := self randomClipart.
+	self text clipart: currentClipart.
