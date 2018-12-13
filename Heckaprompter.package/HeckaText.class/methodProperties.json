@@ -1,11 +1,13 @@
 {
 	"class" : {
 		"example" : "tcj 10/21/2018 16:18",
-		"newForUser:fromClipart:andBlurb:" : "tcj 10/21/2018 16:56" },
+		"newForUser:fromClipart:andBlurb:" : "tcj 12/12/2018 08:27" },
 	"instance" : {
+		"blurb" : "tcj 12/12/2018 23:54",
 		"blurb:" : "tcj 10/22/2018 20:05",
 		"blurbId" : "tcj 10/21/2018 16:22",
 		"blurbId:" : "tcj 10/21/2018 16:22",
+		"clipart" : "tcj 12/12/2018 23:54",
 		"clipart:" : "tcj 10/22/2018 20:04",
 		"clipartId" : "tcj 10/21/2018 16:22",
 		"clipartId:" : "tcj 10/21/2018 16:22",
@@ -13,5 +15,8 @@
 		"initialize" : "tcj 10/21/2018 22:11",
 		"text" : "tcj 10/21/2018 16:22",
 		"text:" : "tcj 10/21/2018 16:22",
+		"user:" : "tcj 12/12/2018 08:26",
 		"userId" : "tcj 10/21/2018 16:22",
-		"userId:" : "tcj 10/21/2018 16:22" } }
+		"userId:" : "tcj 10/21/2018 16:22",
+		"usesBlurb:" : "tcj 12/12/2018 23:42",
+		"usesClipart:" : "tcj 12/12/2018 23:41" } }

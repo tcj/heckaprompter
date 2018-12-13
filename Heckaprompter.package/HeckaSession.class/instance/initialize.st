@@ -2,8 +2,10 @@ initialize-release
 initialize
 	super initialize.
 	user := HeckaUser example.
-	clipartRegistry := HeckaClipartFileRegistry sample.
-	blurbRegistry := HeckaBlurbFileRegistry sample. 
+	clipartRegistry := HeckaClipartFileRegistry 
+		newFromDirectoryNamed: (self requestContext application preferenceAt: #heckaSVGFilePath) .
+	blurbRegistry := HeckaBlurbFileRegistry 
+		newFromDirectoryNamed: (self requestContext application preferenceAt: #heckaBlurbFilePath).
 	self currentActivity: HeckaTextEntry.
-	self newEverything.
+	self newRandomText.
 	

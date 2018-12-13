@@ -1,7 +1,7 @@
 rendering
 renderBlurbId: aBlurbId on: html
 	| blurb | 
-	blurb := HeckaBlurb fromHeckaBlurbFile: (self session blurbRegistry fileAtId: aBlurbId).
+	blurb := self session blurbForId: aBlurbId.
 	html anchor
-		callback: [ self chooseBlurb: blurb ];
+		callback: [ self browseBlurb: blurb ];
 		with: [ html paragraph: blurb contents ].

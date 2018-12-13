@@ -8,11 +8,13 @@ initialize
 	application configuration 
 		addParent: HeckaConfiguration instance.
 
-	application
+"	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
 	application 
 		addLibrary: JQDevelopmentLibrary;
-		addLibrary: JQUiDevelopmentLibrary;
+		addLibrary: JQUiDevelopmentLibrary."
+		
+	application
 		addLibrary: HeckaStyleLibrary.
 
 "	application

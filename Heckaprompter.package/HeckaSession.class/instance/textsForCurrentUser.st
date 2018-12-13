@@ -1,3 +1,4 @@
 text
 textsForCurrentUser
-	^ HeckaText findAll: [:text | text userId = self user uniqueId ]
+	"move to HeckaText"
+	^ HeckaText findAll: [:text | text userId = self userId ]

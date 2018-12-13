@@ -10,8 +10,10 @@
 		"clipartRegistry",
 		"blurbRegistry",
 		"currentBlurb",
-		"text",
-		"currentClipart",
+		"currentText",
+		"browsingClipart",
+		"browsingText",
+		"browsingBlurb",
 		"currentActivity" ],
 	"name" : "HeckaSession",
 	"pools" : [

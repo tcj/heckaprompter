@@ -1,4 +1,3 @@
 blurb
 newRandomBlurb
-	currentBlurb := self randomBlurb.
-	self text ifNotNil: [:oldText | oldText blurb: currentBlurb ].
+	self currentText ifNotNil: [:text | text blurb: self randomBlurb ].

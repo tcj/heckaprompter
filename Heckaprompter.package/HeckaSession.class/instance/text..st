@@ -1,4 +1,4 @@
 accessing
 text: anObject
 
-	text := anObject.
+	currentText := anObject.

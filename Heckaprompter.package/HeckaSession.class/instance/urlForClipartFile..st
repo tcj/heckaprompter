@@ -1,4 +1,4 @@
 clipart
-urlForClipart: aClipartFile
+urlForClipartFile: aClipartFile
 	^ (self application preferenceAt: #heckaBareURL), '/', aClipartFile fileName
 	

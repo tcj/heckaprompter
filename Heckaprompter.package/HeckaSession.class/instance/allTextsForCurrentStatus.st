@@ -3,6 +3,6 @@ allTextsForCurrentStatus
 	^ HeckaText findAll: [:text |
 "		text userId = self user uniqueId
 			and: ["
-	(	(self currentClipart isNil ) or: [ text clipartId = self currentClipart uniqueId ] )
+	(	(self browsingClipart isNil ) or: [ text usesClipart: self browsingClipart ] )
 				and: 
-			[ (self currentBlurb isNil ) or: [ text blurbId = self currentBlurb uniqueId ] ] ]
+			[ (self browsingBlurb isNil ) or: [ text usesBlurb: self browsingBlurb ] ] ]

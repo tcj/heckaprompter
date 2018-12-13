@@ -1,10 +1,10 @@
 rendering
 renderClipartId: clipartId on: html
 	| svg | 
-	svg := self session clipartRegistry fileAtId: clipartId.
+	svg := self session clipartForId: clipartId.
 	html anchor
 		class: 'svg';
-		callback: [ self chooseClipart: svg ];
+		callback: [ self browseClipart: svg ];
 		with: [
 			html object 
 				class: 'chooserClipartItem';
@@ -12,5 +12,5 @@ renderClipartId: clipartId on: html
 				width:  100;
 				height: 100;
 				standby: 'loading image';
-				url: (self session urlForClipart: svg);
+				url: (self session urlForClipartFile: svg);
 				with: 'Your browser doesn''t support SVG'. ].

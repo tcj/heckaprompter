@@ -6,7 +6,7 @@ renderClipartMenuOn: html
 		with: 'i2'."
 		html space.
 		html anchor
-			onClick: ( html javascript alert: (self session currentClipart fileName) );
+			onClick: ( html javascript alert: (self session textClipart fileName) );
 			url: 'javascript:void(0)';
 			with: [ html text: 'i' ].
 		html space.				

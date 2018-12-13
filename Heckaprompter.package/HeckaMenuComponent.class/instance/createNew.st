@@ -1,4 +1,4 @@
 callbacks
 createNew
-	self session newEverything.
+	self session newRandomText.
 	^ self session makeActive: HeckaTextEntry.

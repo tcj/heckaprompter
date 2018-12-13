@@ -1,19 +1,19 @@
 as yet unclassified
 initialize
 	| application |
-	application := WAAdmin register: self asApplicationAt: 'heckaprompter/prompter'.
+	application := WAAdmin register: self asApplicationAt: 'heckaprompter/basic'.
 	application 
 		preferenceAt: #sessionClass put: HeckaSession.
 		
 	application configuration 
 		addParent: HeckaConfiguration instance.
 
-	application
+"	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
 	application 
 		addLibrary: JQDevelopmentLibrary;
 		addLibrary: JQUiDevelopmentLibrary.
-
+"
 "	application
 		addLibrary: PTDevelopmentLibrary;
 		addLibrary: SUDevelopmentLibrary."
@@ -22,5 +22,5 @@ initialize
 
 
 "
-HeckaPrompterComponent initialize.
+HeckaTextEntryComponent initialize.
 "

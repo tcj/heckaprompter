@@ -1,4 +1,3 @@
 clipart
 newRandomClipart
-	currentClipart := self randomClipart.
-	self text ifNotNil: [:oldText | oldText clipart: currentClipart ].
+	self currentText ifNotNil: [:text | text clipart: self randomClipart ].

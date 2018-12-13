@@ -12,5 +12,5 @@
 	"name" : "HeckaBlurb",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "HeckaAsset",
 	"type" : "normal" }
