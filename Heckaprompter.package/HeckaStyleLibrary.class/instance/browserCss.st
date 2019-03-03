@@ -5,6 +5,15 @@ object {
 	pointer-events: none;
 }
 
+.chooserClipartItemChosen {
+	width: 95%;
+	border-left: auto;
+	border-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: blue;
+}
+
 .chooserClipartItem {
 	width: 95%;
 	border-left: auto;

@@ -7,7 +7,7 @@ renderClipartId: clipartId on: html
 		callback: [ self browseClipart: svg ];
 		with: [
 			html object 
-				class: 'chooserClipartItem';
+				class: (self classForClipartId: clipartId);
 				type: 'image/svg+xml' seasideMimeType;
 				width:  100;
 				height: 100;
