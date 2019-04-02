@@ -1,4 +1,4 @@
 callbacks
 saveAndBrowse
-	self session text save.
+	self session currentText save.
 	self session makeActive: HeckaBrowsing.

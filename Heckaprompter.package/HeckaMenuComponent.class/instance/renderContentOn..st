@@ -26,4 +26,4 @@ renderContentOn: html
 				html tableHeading: [ html space ].				
 				html tableHeading
 					id: 'hkauser';
-					with: (self session user) ] ]
+					with: [ self renderUsernameOn: html ] ] ]

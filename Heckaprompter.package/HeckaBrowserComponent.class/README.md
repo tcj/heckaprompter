@@ -2,8 +2,8 @@ If selectedUser is nil, show for all users
 
 TODO:
 
-* make blurbs clickable
-* indicate selected
+DONE* make blurbs clickable
+WIP* indicate selected
 * move selected clipart to top?
 * select first/random first
 * allow browsing all by clipart/all by blurb

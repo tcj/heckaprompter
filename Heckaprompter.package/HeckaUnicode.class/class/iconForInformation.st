@@ -1,0 +1,3 @@
+icons
+iconForInformation
+	^ self information

@@ -4,7 +4,7 @@ renderContentOn: html
 	
 	html div
 		class: 'clipartChooser';
-		with: [ self clipartIds do: [:clipartId | self renderClipartId: clipartId on: html ] ].
+		with: [ self clipartIdsSorted do: [:clipartId | self renderClipartId: clipartId on: html ] ].
 	html div 
 		class: 'blurbChooser';
 		with: [ self blurbIds do: [:blurbId | self renderBlurbId: blurbId on: html ] ].

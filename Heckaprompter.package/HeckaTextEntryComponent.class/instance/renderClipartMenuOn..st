@@ -8,9 +8,9 @@ renderClipartMenuOn: html
 		html anchor
 			onClick: ( html javascript alert: (self session textClipart fileName) );
 			url: 'javascript:void(0)';
-			with: [ html text: 'i' ].
+			with: [ html text: HeckaUnicode iconForInformation ].
 		html space.				
 		html anchor
 			callback: [ self session newRandomClipart ];
-			with: [html text: 'skip'] 
+			with: [html text: HeckaUnicode iconForSkip] 
 	].

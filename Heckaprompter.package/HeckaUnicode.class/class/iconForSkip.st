@@ -1,0 +1,3 @@
+icons
+iconForSkip
+	^ self fastForward
