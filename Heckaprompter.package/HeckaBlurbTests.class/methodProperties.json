@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"sampleUrlString" : "tcj 4/1/2019 20:01",
+		"sampleUserString" : "tcj 4/1/2019 20:00",
+		"setUp" : "tcj 4/1/2019 20:19",
+		"tearDown" : "tcj 4/1/2019 20:06",
+		"tempDir" : "tcj 4/1/2019 19:55",
+		"tempDir:" : "tcj 4/1/2019 19:55",
+		"tempDirectory" : "tcj 4/1/2019 19:49",
+		"tempFileNameUrl" : "tcj 4/1/2019 20:03",
+		"tempFileNameUrl:" : "tcj 4/1/2019 20:03",
+		"tempFileNameUser" : "tcj 4/1/2019 19:59",
+		"tempFileNameUser:" : "tcj 4/1/2019 19:59",
+		"testUrlBlurb" : "tcj 4/1/2019 20:23",
+		"testUserBlurb" : "tcj 4/1/2019 20:22",
+		"writeTestFileNamed:fromString:" : "tcj 4/1/2019 20:19" } }

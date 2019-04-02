@@ -1,0 +1,20 @@
+{
+	"category" : "Heckaprompter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 4/1/2019 20:15",
+	"instvars" : [
+		"tempDir",
+		"tempFileNameUser",
+		"tempFileNameUrl",
+		"ffpanUser",
+		"ffpanUrl",
+		"userBlurb",
+		"urlBlurb" ],
+	"name" : "HeckaBlurbTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
