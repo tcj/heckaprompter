@@ -1,4 +1,4 @@
 as yet unclassified
 setUp
 	blurbFile := HeckaBlurbFile sample.
-	blurb := HeckaBlurb fromFile: blurbFile.
+	blurb := HeckaBlurb fromHeckaBlurbFile: blurbFile.

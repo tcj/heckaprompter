@@ -3,7 +3,7 @@ setUp
 	clipartReg := HeckaClipartFileRegistry sample.
 	blurbReg := HeckaBlurbFileRegistry sample.
 	blurbFile := HeckaBlurbFile sample.
-	blurb := HeckaBlurb fromFile: blurbFile.
+	blurb := HeckaBlurb fromHeckaBlurbFile: blurbFile.
 	clipartFile := clipartReg randomFile.
 	user := HeckaUser new.
 	text := HeckaTextFull
