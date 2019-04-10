@@ -8,4 +8,4 @@ initialize
 		newFromDirectoryNamed: (self requestContext application preferenceAt: #heckaBlurbFilePath).
 	self currentActivity: HeckaTextEntry.
 	self newRandomText.
-	
+	timeStamp := DateAndTime now.

@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"uniqueId",
-		"shortName",
-		"fullName",
-		"emailAddress",
-		"oauthId" ],
-	"name" : "HeckaUser",
+		 ],
+	"name" : "HeckaNoSuchUserError",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Error",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"registry" ],
+	"name" : "HeckaUserRegistryTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

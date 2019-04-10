@@ -14,7 +14,8 @@
 		"browsingClipart",
 		"browsingText",
 		"browsingBlurb",
-		"currentActivity" ],
+		"currentActivity",
+		"timeStamp" ],
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],
