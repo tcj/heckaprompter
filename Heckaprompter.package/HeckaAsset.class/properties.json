@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"source",
+		"storage",
+		"contents" ],
 	"name" : "HeckaAsset",
 	"pools" : [
 		 ],

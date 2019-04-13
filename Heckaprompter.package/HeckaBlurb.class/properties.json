@@ -6,9 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"source",
-		"storage",
-		"contents" ],
+		 ],
 	"name" : "HeckaBlurb",
 	"pools" : [
 		 ],

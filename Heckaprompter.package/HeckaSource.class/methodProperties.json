@@ -1,9 +1,12 @@
 {
 	"class" : {
-		"fromString:" : "tcj 10/8/2018 20:44" },
+		"fromClipartFile:" : "tcj 4/13/2019 15:24",
+		"fromString:" : "tcj 4/13/2019 15:17" },
 	"instance" : {
+		"beClipartFile" : "tcj 4/13/2019 15:23",
 		"destination" : "tcj 10/8/2018 20:57",
 		"destination:" : "tcj 10/8/2018 20:57",
+		"isClipartFile" : "tcj 4/13/2019 15:23",
 		"isUrl" : "tcj 4/1/2019 20:45",
 		"isUser" : "tcj 4/1/2019 20:46",
 		"parseString:" : "tcj 10/8/2018 20:58",

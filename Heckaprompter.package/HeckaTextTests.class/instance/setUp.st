@@ -1,12 +1,15 @@
-as yet unclassified
+running
 setUp
 	clipartReg := HeckaClipartFileRegistry sample.
 	blurbReg := HeckaBlurbFileRegistry sample.
-	blurbFile := HeckaBlurbFile sample.
-	blurb := HeckaBlurb fromHeckaBlurbFile: blurbFile.
+	blurbFile := blurbReg randomFile.
+	blurb := blurbFile asBlurb.
 	clipartFile := clipartReg randomFile.
 	user := HeckaUser new.
-	text := HeckaTextFull
-		newFromUser: user
-		onClipart: clipartFile
+	HeckaText setStore: SDMemoryStore new.
+	HeckaText warmUp. 
+	text := HeckaText
+		newForUser: user
+		fromClipart: clipartFile
 		andBlurb: blurb.
+	text save.

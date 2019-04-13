@@ -1,0 +1,4 @@
+accessing
+clipartReg
+
+	^ clipartReg

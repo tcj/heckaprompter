@@ -1,4 +1,4 @@
-instance creation
+as yet unclassified
 fromHeckaBlurbFile: aHeckaBlurbFile
 	| lines |
 	lines := aHeckaBlurbFile lines.
