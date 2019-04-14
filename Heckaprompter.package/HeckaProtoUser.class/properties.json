@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"emailAddress",
-		"oauthId" ],
-	"name" : "HeckaUser",
+		"shortName",
+		"fullName" ],
+	"name" : "HeckaProtoUser",
 	"pools" : [
 		 ],
-	"super" : "HeckaProtoUser",
+	"super" : "Object",
 	"type" : "normal" }

@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Instances" ],
 	"commentStamp" : "tcj 10/7/2018 22:49",
 	"instvars" : [
 		"files",

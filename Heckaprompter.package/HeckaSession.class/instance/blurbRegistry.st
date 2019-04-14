@@ -1,4 +1,5 @@
 accessing
 blurbRegistry
 
-	^ blurbRegistry
+	^ BlurbFileRegistry ifNil: [BlurbFileRegistry := HeckaBlurbFileRegistry 
+		newFromDirectoryNamed: (self requestContext application preferenceAt: #heckaBlurbFilePath) ].

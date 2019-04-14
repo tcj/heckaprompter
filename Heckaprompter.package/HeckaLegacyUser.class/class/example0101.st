@@ -1,7 +1,7 @@
 as yet unclassified
-example
+example0101
 	^ self new
-		emailAddress: 'user@example.com';
+		uniqueId: '0101';
 		shortName: 'mexico';
 		fullName: 'Mexico Undulate';
 		yourself

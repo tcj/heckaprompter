@@ -1,15 +1,14 @@
 {
-	"category" : "Heckaprompter-Model",
+	"category" : "Heckaprompter-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"emailAddress",
-		"oauthId" ],
-	"name" : "HeckaUser",
+		"user" ],
+	"name" : "HeckaUserTests",
 	"pools" : [
 		 ],
-	"super" : "HeckaProtoUser",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 running
 tearDown	
 	text delete.
-	SDActiveRecord setStore: SDActiveRecord defaultStore.
+	HeckaText setStore: SDActiveRecord defaultStore.

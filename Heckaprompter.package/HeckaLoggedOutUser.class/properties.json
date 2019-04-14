@@ -1,14 +1,13 @@
 {
 	"category" : "Heckaprompter-Model",
 	"classinstvars" : [
-		 ],
+		"Instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"emailAddress",
-		"oauthId" ],
-	"name" : "HeckaUser",
+		 ],
+	"name" : "HeckaLoggedOutUser",
 	"pools" : [
 		 ],
 	"super" : "HeckaProtoUser",

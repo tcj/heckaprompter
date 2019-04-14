@@ -1,13 +1,13 @@
 as yet unclassified
 specialUsers
 	| heckaUser anonymousUser |
-	heckaUser := HeckaUser new 
+	heckaUser := HeckaLegacyUser new 
 		uniqueId: '0001';
 		shortName: 'HeckaUser';
 		fullName: 'a HeckaUser';
 		yourself.
 		
-	anonymousUser := HeckaUser new
+	anonymousUser := HeckaLegacyUser new
 		uniqueId: '0001a';
 		shortName: 'Anonymous';
 		fullName: 'Anonymous User';
