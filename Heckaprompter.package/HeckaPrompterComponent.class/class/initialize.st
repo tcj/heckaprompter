@@ -1,12 +1,16 @@
 as yet unclassified
 initialize
 	| application |
-	application := WAAdmin register: self asApplicationAt: 'heckaprompter/prompter'.
+	application := WAAdmin register: self asApplicationAt: 'demo'.
 	application 
 		preferenceAt: #sessionClass put: HeckaSession.
 		
 	application configuration 
-		addParent: HeckaConfiguration instance.
+		addParent: HeckaConfiguration instance;
+		addParent: WCOAuth2JsonFileConfiguration instance;
+		addParent: ZnOAuth2GoogleConfiguration instance.
+
+	WAAdmin register: ZnOAuth2CallbackHandler at: 'heckaoauth2'.
 
 "	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.

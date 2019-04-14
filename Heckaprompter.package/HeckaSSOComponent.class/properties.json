@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"ssoComponent" ],
-	"name" : "HeckaLoginComponent",
+		"responsePanel" ],
+	"name" : "HeckaSSOComponent",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",

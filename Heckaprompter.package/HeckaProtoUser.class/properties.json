@@ -11,5 +11,5 @@
 	"name" : "HeckaProtoUser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SDActiveRecord",
 	"type" : "normal" }

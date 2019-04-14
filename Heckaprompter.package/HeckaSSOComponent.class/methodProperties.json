@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"canBeRoot" : "tcj 4/9/2019 15:06" },
+	"instance" : {
+		"clearResponsePanel" : "tcj 4/13/2019 23:01",
+		"handleCallback" : "tcj 4/13/2019 23:02",
+		"logout" : "tcj 4/13/2019 23:01",
+		"renderAnchor:title:imageUrl:on:" : "JanVanDeSandt 1/2/2013 11:38",
+		"renderAnchor:title:imageUrl:target:on:" : "JanVanDeSandt 1/5/2013 17:34",
+		"renderContentOn:" : "tcj 4/11/2019 15:35",
+		"renderMenuOn:" : "tcj 4/9/2019 14:34",
+		"renderOAuth2Provider:url:on:" : "tcj 4/11/2019 15:46",
+		"renderOAuth2Providers:on:" : "tcj 4/13/2019 23:08",
+		"renderSignInOptionsOn:" : "tcj 4/13/2019 23:03",
+		"responsePanel" : "tcj 4/13/2019 23:11",
+		"responsePanel:" : "tcj 4/13/2019 23:11",
+		"signOnUsingOAuth2Google:" : "tcj 4/13/2019 23:07",
+		"updateRoot:" : "tcj 4/9/2019 13:46" } }

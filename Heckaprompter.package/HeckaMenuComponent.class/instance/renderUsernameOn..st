@@ -1,6 +1,6 @@
 rendering
 renderUsernameOn: html
-	html text: self session user.
+	html text: self session user printString.
 	html space.
 	self session isLoggedIn
 		ifTrue: [ 

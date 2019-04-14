@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"gotoSignOn:" : "tcj 4/13/2019 23:25",
+		"handleCallback" : "tcj 4/13/2019 23:43",
+		"oauthConsumerData" : "tcj 4/13/2019 23:16",
+		"oauthSession" : "tcj 4/11/2019 15:15",
+		"oauthSession:" : "tcj 4/11/2019 15:15",
+		"renderContentOn:" : "JanVanDeSandt 12/7/2012 17:14",
+		"renderImage:on:" : "tcj 4/9/2019 13:27",
+		"renderJSONDict:on:" : "tcj 4/9/2019 13:27",
+		"renderLink:on:" : "tcj 4/9/2019 13:27",
+		"userData" : "tcj 4/11/2019 15:15",
+		"userData:" : "tcj 4/11/2019 15:15" } }
