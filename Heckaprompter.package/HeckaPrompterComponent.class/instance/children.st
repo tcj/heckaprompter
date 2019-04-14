@@ -1,3 +1,4 @@
 rendering
 children
-	^ Array with: (self menuComponent ) with: (self blurbInfoComponent) with: (self clipartInfoComponent) with: (self textEntryComponent)
+	"do we have to send all components or just the currently shown components?"
+	^ Array with: (self menuComponent ) with: (self currentComponent)

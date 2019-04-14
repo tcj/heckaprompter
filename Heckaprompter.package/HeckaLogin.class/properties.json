@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"theme",
-		"menuComponent",
-		"textEntryComponent",
-		"browseComponent",
-		"loginComponent" ],
-	"name" : "HeckaPrompterComponent",
+		 ],
+	"name" : "HeckaLogin",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "HeckaUserActivity",
 	"type" : "normal" }

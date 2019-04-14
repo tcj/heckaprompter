@@ -7,6 +7,7 @@ makeActive: anActivity
 	anActivity caseOf: {
 		[HeckaBrowsing] -> [ self switchToBrowsing ].
 		[HeckaTextEntry] -> [ self switchToTextEntry ].
+		[HeckaLogin] -> [self switchToLogin ].
 	}.
 
 	

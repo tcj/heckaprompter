@@ -1,0 +1,3 @@
+flow
+switchToLogin
+	^ self
