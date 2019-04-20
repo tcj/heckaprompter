@@ -1,3 +1,3 @@
 logout/login
 logout
-	self inform: 'not yet implemented'
+	^ self session makeActive: HeckaLogin

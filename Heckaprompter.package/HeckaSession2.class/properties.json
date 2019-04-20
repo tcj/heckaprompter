@@ -1,0 +1,24 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlurbFileRegistry",
+		"ClipartFileRegistry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"user",
+		"clipartRegistry",
+		"blurbRegistry",
+		"currentBlurb",
+		"currentText",
+		"browsingClipart",
+		"browsingText",
+		"browsingBlurb",
+		"currentActivity",
+		"timeStamp" ],
+	"name" : "HeckaSession2",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

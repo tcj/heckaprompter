@@ -1,3 +1,3 @@
 rendering
 renderContentOn: html
-	html text: blurb fileName. 
+	html text: blurb storage fileName. 

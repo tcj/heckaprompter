@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Experiments",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaTask",
+	"pools" : [
+		 ],
+	"super" : "WATask",
+	"type" : "normal" }

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"canBeRoot" : "tcj 4/17/2019 13:47" },
+	"instance" : {
+		"browseComponent" : "tcj 4/20/2019 09:12",
+		"browseComponent:" : "tcj 4/17/2019 17:57",
+		"browseMode" : "tcj 4/20/2019 09:18",
+		"children" : "tcj 4/20/2019 08:42",
+		"createNew" : "tcj 4/20/2019 09:17",
+		"go" : "tcj 4/20/2019 09:56",
+		"login" : "tcj 4/17/2019 13:43",
+		"loginComponent" : "tcj 4/17/2019 17:57",
+		"loginComponent:" : "tcj 4/17/2019 17:57",
+		"logout" : "tcj 4/17/2019 13:43",
+		"saveAndBrowse" : "tcj 4/20/2019 08:59",
+		"saveAndNew" : "tcj 4/20/2019 09:02",
+		"textEntryComponent" : "tcj 4/17/2019 17:59",
+		"textEntryComponent:" : "tcj 4/17/2019 17:57" } }

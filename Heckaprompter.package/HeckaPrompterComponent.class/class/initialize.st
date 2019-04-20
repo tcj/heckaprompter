@@ -12,6 +12,8 @@ initialize
 
 	WAAdmin register: ZnOAuth2CallbackHandler at: 'heckaoauth2'.
 
+	application filter configuration at: #exceptionHandler put: WADynamicVariablesErrorHandler.
+	
 "	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
 	application 
