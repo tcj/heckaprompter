@@ -1,12 +1,13 @@
 running
 go
-	| answer |
+	| previousAnswer answer |
 	"default behavior is to go into text entry immediately
 	to showcase the idea, whether a user is logged in or not."
-	answer := self call: self textEntryComponent.
+	answer := #createNew.
 
 	[ answer notNil ] whileTrue: [
 		Transcript show: answer; cr.
+		previousAnswer := answer.
 		answer := answer caseOf: {
 			[ #browseMode ] -> [ self call: self browseComponent ].
 			[ #createNew ] -> [
@@ -14,7 +15,8 @@ go
 				self call: self textEntryComponent ].
 			[ #saveAndBrowse ] -> [ self saveAndBrowse ].
 			[ #saveAndNew ] -> [ self saveAndNew ].
-			[ #logout ] -> [ self logout ].
-			[ #login ] -> [ self login ].
-		}
-	]
+			[ #logout ] -> [ self logout.  #createNew ].
+			[ #login ] -> [ self login.  ].
+		} otherwise: [ answer := self call: self nullComponent ]
+	].
+	

@@ -2,18 +2,18 @@
 	"class" : {
 		"canBeRoot" : "tcj 4/9/2019 15:06" },
 	"instance" : {
+		"children" : "tcj 4/20/2019 12:40",
 		"clearResponsePanel" : "tcj 4/13/2019 23:01",
 		"handleCallback" : "tcj 4/13/2019 23:02",
-		"logout" : "tcj 4/13/2019 23:01",
+		"logout" : "tcj 4/20/2019 12:36",
 		"release" : "tcj 4/14/2019 08:34",
 		"renderAnchor:title:imageUrl:on:" : "JanVanDeSandt 1/2/2013 11:38",
 		"renderAnchor:title:imageUrl:target:on:" : "JanVanDeSandt 1/5/2013 17:34",
-		"renderContentOn:" : "tcj 4/11/2019 15:35",
-		"renderMenuOn:" : "tcj 4/9/2019 14:34",
-		"renderOAuth2Provider:url:on:" : "tcj 4/11/2019 15:46",
+		"renderContentOn:" : "tcj 4/21/2019 08:59",
 		"renderOAuth2Providers:on:" : "tcj 4/13/2019 23:08",
+		"renderSSOMenuOn:" : "tcj 4/20/2019 12:29",
 		"renderSignInOptionsOn:" : "tcj 4/14/2019 08:22",
 		"responsePanel" : "tcj 4/13/2019 23:11",
 		"responsePanel:" : "tcj 4/13/2019 23:11",
-		"signOnUsingOAuth2Google:" : "tcj 4/13/2019 23:07",
-		"updateRoot:" : "tcj 4/9/2019 13:46" } }
+		"signOnUsingOAuth2Google:" : "tcj 4/20/2019 12:58",
+		"updateRoot:" : "tcj 4/20/2019 13:09" } }

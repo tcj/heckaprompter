@@ -11,7 +11,7 @@ renderMenuOn: html
 				html tableHeading: [ html space ].
 				html tableHeading: [ 
 					html anchor
-						callback: [ self answer: #createNew ];
+						callback: [ self createNew ];
 						with: [ 
 							html text: HeckaUnicode crayon.
 							html text: ' create new' ] ].

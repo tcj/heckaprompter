@@ -1,0 +1,20 @@
+rendering
+renderSignInOptionsOn: html
+
+	| callback url |
+
+	callback := WAActionCallback on: [ self handleCallback ] .
+	url := html actionUrl copy addField: (html callbacks store: callback).
+	url takeServerParametersFromRequest: self requestContext request.
+
+	html anchor
+		callback: [ self signOnUsingOAuth2Google: url ] ;
+		with: ('Log in using Google'). 
+"	html space.
+	html text: '/'.
+	html space.
+"
+	html horizontalRule
+		style: 'clear: both;' 
+
+	

@@ -1,4 +1,0 @@
-callbacks
-saveAndBrowse
-	self saveText.
-	

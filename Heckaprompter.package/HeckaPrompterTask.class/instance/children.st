@@ -1,3 +1,3 @@
 rendering
 children
-	^ Array with: (self loginComponent) with: (self textEntryComponent) with: (self browseComponent)
+	^ Array with: self textEntryComponent with: self browseComponent with: self accountComponent

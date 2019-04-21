@@ -10,5 +10,5 @@
 	"name" : "HeckaSSOComponent2",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "HeckaMenuedComponent",
 	"type" : "normal" }

@@ -2,4 +2,5 @@ rendering
 signOnUsingOAuth2Google: aCallbackUrl
 	
 	self responsePanel: HeckaSSOGoogleOAuth2Panel new.
-	self responsePanel gotoSignOn: aCallbackUrl
+	self responsePanel gotoSignOn: aCallbackUrl.
+	self answer: #loggedIn.

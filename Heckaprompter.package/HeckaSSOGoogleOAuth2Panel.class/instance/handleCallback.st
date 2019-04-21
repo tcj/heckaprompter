@@ -7,3 +7,5 @@ handleCallback
 		
 	userData := oauthSession getUserData.
 	self session loginGoogleUser: userData.
+	
+	"code /will/ reach here"

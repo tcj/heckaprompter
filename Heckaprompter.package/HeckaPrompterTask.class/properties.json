@@ -7,8 +7,11 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"textEntryComponent",
+		"accountComponent",
 		"browseComponent",
-		"loginComponent" ],
+		"loginComponent",
+		"nullComponent",
+		"loginTask" ],
 	"name" : "HeckaPrompterTask",
 	"pools" : [
 		 ],

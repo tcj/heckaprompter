@@ -15,4 +15,7 @@ gotoSignOn: aCallbackUrl
 
 	self requestContext
 		redirectTo: (oauthSession authenticationUrlWithState: state) ;
-		respond
+		respond.
+
+	"code will never reach here"
+	
