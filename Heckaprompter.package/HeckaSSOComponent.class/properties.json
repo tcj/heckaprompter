@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"responsePanel" ],
-	"name" : "HeckaSSOComponent2",
+	"name" : "HeckaSSOComponent",
 	"pools" : [
 		 ],
 	"super" : "HeckaMenuedComponent",

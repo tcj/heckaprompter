@@ -17,7 +17,7 @@
 		"browsingBlurb",
 		"currentActivity",
 		"timeStamp" ],
-	"name" : "HeckaSession2",
+	"name" : "HeckaSession",
 	"pools" : [
 		 ],
 	"super" : "WASession",

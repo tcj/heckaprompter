@@ -1,4 +1,4 @@
 accessing
 loginComponent
 
-	^ loginComponent ifNil: [loginComponent := HeckaSSOComponent2 new]
+	^ loginComponent ifNil: [loginComponent := HeckaSSOComponent new]

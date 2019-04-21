@@ -1,4 +1,4 @@
 accessing
 browseComponent
 
-	^ browseComponent ifNil: [browseComponent := HeckaBrowserComponent2 new]
+	^ browseComponent ifNil: [browseComponent := HeckaBrowserComponent new]

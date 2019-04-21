@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		"ssoComponent" ],
-	"name" : "HeckaLoginComponent",
+		"selectedUser",
+		"selectedClipart" ],
+	"name" : "HeckaBrowserComponent",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "HeckaMenuedComponent",
 	"type" : "normal" }

@@ -14,7 +14,7 @@
 		"clipartInfoComponent",
 		"clipartInfoId",
 		"blurbInfoId" ],
-	"name" : "HeckaTextEntryComponent2",
+	"name" : "HeckaTextEntryComponent",
 	"pools" : [
 		 ],
 	"super" : "HeckaMenuedComponent",
