@@ -1,4 +1,0 @@
-accessing
-browsingText
-
-	^ browsingText

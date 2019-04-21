@@ -1,1 +1,0 @@
-A ZnSSOSeasideDemo is Seaside component that demonstrates how Zinc-SSO and Seaside can be used together.

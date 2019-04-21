@@ -1,3 +1,0 @@
-text
-textsForAllUsers
-	^ HeckaText findAll

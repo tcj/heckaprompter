@@ -1,4 +1,0 @@
-actions
-clearResponsePanel
-
-	responsePanel := nil

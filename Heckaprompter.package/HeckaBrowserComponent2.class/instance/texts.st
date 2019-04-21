@@ -1,4 +1,4 @@
 accessing
 texts
 
-	^ texts
+	^ self session textsForAllUsers

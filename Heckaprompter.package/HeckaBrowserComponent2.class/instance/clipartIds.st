@@ -2,5 +2,5 @@ rendering
 clipartIds
 	| ids |
 	ids := Set new.
-	texts do: [:text | ids add: text clipartId ].
+	self texts do: [:text | ids add: text clipartId ].
 	^ ids

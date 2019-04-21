@@ -9,14 +9,13 @@ go
 		Transcript show: answer; cr.
 		previousAnswer := answer.
 		answer := answer caseOf: {
+			[ #accountInfo ] -> [ self call: self accountComponent ].
 			[ #browseMode ] -> [ self call: self browseComponent ].
-			[ #createNew ] -> [
-			 	self session newRandomText.
-				self call: self textEntryComponent ].
+			[ #createNew ] -> [ self createNew ].
 			[ #saveAndBrowse ] -> [ self saveAndBrowse ].
 			[ #saveAndNew ] -> [ self saveAndNew ].
-			[ #logout ] -> [ self logout.  #createNew ].
-			[ #login ] -> [ self login.  ].
+			[ #logout ] -> [ self logout ].
+			[ #login ] -> [ self call: self accountComponent ].
 		} otherwise: [ answer := self call: self nullComponent ]
 	].
 	

@@ -7,7 +7,7 @@
 	"commentStamp" : "<historical>",
 	"instvars" : [
 		"selectedUser",
-		"texts" ],
+		"selectedClipart" ],
 	"name" : "HeckaBrowserComponent2",
 	"pools" : [
 		 ],
