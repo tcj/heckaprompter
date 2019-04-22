@@ -1,5 +1,6 @@
 rendering
 renderFreshStartOn: html
+	"this might show up if user is not logged in"
 	html heading
 			level: 3;
 			with: 'No texts yet!'.

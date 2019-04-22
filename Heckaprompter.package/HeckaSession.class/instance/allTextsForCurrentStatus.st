@@ -1,4 +1,4 @@
-browsing
+unused
 allTextsForCurrentStatus
 	^ HeckaText findAll: [:text |
 "		text userId = self user uniqueId

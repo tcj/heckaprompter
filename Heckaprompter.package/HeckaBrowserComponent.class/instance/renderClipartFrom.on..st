@@ -4,7 +4,7 @@ renderClipartFrom: texts on: html
 	clipartIdSet := self session clipartIdsForBrowser.
 
 	"render selected clipart first"
-	chosenClipart := self session browsingClipart.
+	chosenClipart := self session browsingClipart.  "could be nil, watch out!"
 	chosenClipart
 		ifNotNil: [:clipart | | cid |
 			cid := chosenClipart uniqueId.
