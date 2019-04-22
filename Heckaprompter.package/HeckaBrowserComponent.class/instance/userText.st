@@ -1,4 +1,4 @@
-accessing
+rendering
 userText
 	^ self selectedUser 
 		ifNil: ['everyone']

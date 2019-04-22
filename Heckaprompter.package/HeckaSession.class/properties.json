@@ -16,7 +16,10 @@
 		"browsingText",
 		"browsingBlurb",
 		"currentActivity",
-		"timeStamp" ],
+		"timeStamp",
+		"textFilterBlock",
+		"browsingTexts",
+		"textsForBrowsing" ],
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],

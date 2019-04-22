@@ -1,4 +1,4 @@
-accessing
+selections
 texts
 
-	^ self session textsForAllUsers
+	^ self session textsForBrowsing

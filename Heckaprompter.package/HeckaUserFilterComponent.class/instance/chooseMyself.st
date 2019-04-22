@@ -1,0 +1,3 @@
+callbacks
+chooseMyself
+	self session showTextsByCurrentUser

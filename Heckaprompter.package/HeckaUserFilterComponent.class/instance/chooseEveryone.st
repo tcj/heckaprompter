@@ -1,0 +1,3 @@
+callbacks
+chooseEveryone
+	self session showTextsByEveryone

@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"chooseEveryone" : "tcj 4/21/2019 18:23",
+		"chooseMyself" : "tcj 4/21/2019 18:23",
+		"chooseUser" : "tcj 4/21/2019 18:24",
+		"initialize" : "tcj 4/21/2019 18:24",
+		"renderContentOn:" : "tcj 4/21/2019 18:12" } }

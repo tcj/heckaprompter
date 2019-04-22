@@ -1,21 +1,23 @@
 rendering
 renderContentOn: html
+	| texts | 
+	texts := self session textsForBrowsing.
 	self renderMenuOn: html.
-	self texts
+	html render: self userFilterComponent.
+	
+	texts
 		ifEmpty: [ 
 			"no texts in sandstone database yet."
 			self renderFreshStartOn: html ]
 		ifNotEmpty: [
 			html div
 				class: 'clipartChooser';
-				with: [ self clipartIdsSorted do: [:clipartId | self renderClipartId: clipartId on: html ] ].
+				with: [ self renderClipartFrom: texts on: html ].
 			html div 
 				class: 'blurbChooser';
-				with: [ self blurbIds do: [:blurbId | self renderBlurbId: blurbId on: html ] ] ].
+				with: [ self renderBlurbsFrom: texts on: html ] ].
 "	self session currentClipart ifNotNil: [:clip | html text: 'chosen clipart: ', clip uniqueId ].
 	html break.
 	self session currentBlurb ifNotNil: [:blurb | html text: 'chosen blurb: ', blurb uniqueId ]."
 
-	self session allTextsForCurrentStatus do: [:text | 
-		html paragraph: [ html text: text text ] ].
-			
+	self renderFilteredTextsFrom: texts on: html.

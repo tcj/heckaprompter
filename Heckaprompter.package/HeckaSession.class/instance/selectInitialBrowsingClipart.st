@@ -1,4 +1,4 @@
-as yet unclassified
+browsing
 selectInitialBrowsingClipart
 	"have we saved the text?  if not, we cannot browse it"
 	^ currentText isNew

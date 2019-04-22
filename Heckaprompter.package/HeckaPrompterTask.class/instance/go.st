@@ -9,6 +9,7 @@ go
 		Transcript show: answer; cr.
 		previousAnswer := answer.
 		answer := answer caseOf: {
+			[ #stayHere ] -> [ self call: self textEntryComponent ].
 			[ #accountInfo ] -> [ self call: self accountComponent ].
 			[ #browseMode ] -> [ self call: self browseComponent ].
 			[ #createNew ] -> [ self createNew ].
