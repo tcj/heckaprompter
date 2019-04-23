@@ -1,3 +1,3 @@
 text
 textsForAllUsers
-	^ HeckaText findAll
+	^ [ HeckaText findAll ]

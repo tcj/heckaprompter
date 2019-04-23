@@ -17,8 +17,8 @@
 		"browsingBlurb",
 		"currentActivity",
 		"timeStamp",
-		"textsForBrowsing",
-		"browseMode" ],
+		"browseMode",
+		"textFilterBlock" ],
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],

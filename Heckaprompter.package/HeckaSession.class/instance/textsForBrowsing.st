@@ -1,4 +1,4 @@
 accessing
 textsForBrowsing
 
-	^ textsForBrowsing
+	^ self textFilterBlock value

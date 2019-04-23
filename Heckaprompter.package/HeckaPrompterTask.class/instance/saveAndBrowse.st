@@ -8,4 +8,5 @@ saveAndBrowse
 			self inform: 'Must be logged in to save.'.
 			^ self call: self textEntryComponent ].
 
+	self browseComponent browseText: self session currentText.
 	^ self call: self browseComponent.	

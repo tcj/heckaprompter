@@ -1,3 +1,3 @@
 browsing
 showTextsByCurrentUser
-	self showTextsByUser: self user
+	^ self showTextsByUser: self user

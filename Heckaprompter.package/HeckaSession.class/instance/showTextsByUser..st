@@ -1,3 +1,3 @@
 browsing
 showTextsByUser: aUser
-	textsForBrowsing := HeckaText findAll: [:text | text userId = self user uniqueId ].
+	^ self textFilterBlock: [ HeckaText findAll: [:text | text userId = aUser uniqueId ] ]

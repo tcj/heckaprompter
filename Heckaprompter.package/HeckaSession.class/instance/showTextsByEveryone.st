@@ -1,3 +1,3 @@
 browsing
 showTextsByEveryone
-	textsForBrowsing := HeckaText findAll.
+	^ self textFilterBlock: self textsForAllUsers
