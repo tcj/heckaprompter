@@ -10,6 +10,7 @@ go
 		previousAnswer := answer.
 		answer := answer caseOf: {
 			[ #stayHere ] -> [ self call: self textEntryComponent ].
+			[ #aboutHeckaprompter ] -> [ self call: self aboutComponent ].
 			[ #accountInfo ] -> [ self call: self accountComponent ].
 			[ #browseMode ] -> [ self call: self browseComponent ].
 			[ #createNew ] -> [ self createNew ].

@@ -4,12 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tcj 4/22/2019 17:44",
+	"commentStamp" : "",
 	"instvars" : [
-		"selectedUser",
-		"browseFilterComponent",
-		"texts" ],
-	"name" : "HeckaBrowserComponent",
+		 ],
+	"name" : "HeckaAboutComponent",
 	"pools" : [
 		 ],
 	"super" : "HeckaMenuedComponent",

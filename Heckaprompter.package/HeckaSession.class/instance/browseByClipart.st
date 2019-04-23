@@ -1,3 +1,3 @@
 browsing
 browseByClipart
-	self browseMode: HeckaBrowseByClipart instance
+	self browseMode: [HeckaBrowseByClipart on: self]

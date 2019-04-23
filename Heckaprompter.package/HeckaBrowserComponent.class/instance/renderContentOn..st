@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	| texts | 
+	"cache texts during this render phase"
 	texts := self session textsForBrowsing.
 	self renderMenuOn: html.
 	html render: self browseFilterComponent.

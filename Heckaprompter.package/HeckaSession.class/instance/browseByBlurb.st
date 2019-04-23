@@ -1,3 +1,3 @@
 browsing
 browseByBlurb
-	self browseMode: HeckaBrowseByBlurb instance
+	self browseMode: [HeckaBrowseByBlurb on: self]

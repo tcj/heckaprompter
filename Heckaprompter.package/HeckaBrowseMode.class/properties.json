@@ -1,12 +1,12 @@
 {
 	"category" : "Heckaprompter-Seaside",
 	"classinstvars" : [
-		"Instance" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"component" ],
 	"name" : "HeckaBrowseMode",
 	"pools" : [
 		 ],

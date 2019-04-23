@@ -6,7 +6,10 @@ renderMenuOn: html
 			html tableRow:[
 				html tableHeading
 					id: 'hkalogo';
-					with: 'heckaprompter'.
+					with: [
+						html anchor
+							callback: [ self answer: #aboutHeckaprompter ];
+							with: 'heckaprompter'. ].
 				html tableHeading: [ html space ].
 				html tableHeading: [ html space ].
 				html tableHeading: [ 
