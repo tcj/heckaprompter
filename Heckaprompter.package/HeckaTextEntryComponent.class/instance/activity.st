@@ -1,3 +1,0 @@
-unused
-activity
-	^ HeckaTextEntry
