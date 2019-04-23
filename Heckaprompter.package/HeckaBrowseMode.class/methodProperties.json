@@ -1,11 +1,8 @@
 {
 	"class" : {
-		"on:" : "tcj 4/23/2019 07:00" },
+		"instance" : "tcj 4/23/2019 09:09",
+		"new" : "tcj 4/23/2019 09:09",
+		"reset" : "tcj 4/23/2019 09:09" },
 	"instance" : {
-		"blurbIds" : "tcj 4/23/2019 06:59",
-		"clipartIds" : "tcj 4/23/2019 06:59",
-		"component" : "tcj 4/23/2019 07:39",
-		"component:" : "tcj 4/23/2019 07:39",
 		"isByBlurb" : "tcj 4/22/2019 18:16",
-		"isByClipart" : "tcj 4/22/2019 18:15",
-		"texts" : "tcj 4/23/2019 07:07" } }
+		"isByClipart" : "tcj 4/22/2019 18:15" } }

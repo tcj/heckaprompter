@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "tcj 4/22/2019 17:44",
 	"instvars" : [
+		"browseMode",
 		"selectedUser",
 		"browseFilterComponent",
-		"texts" ],
+		"textCache" ],
 	"name" : "HeckaBrowserComponent",
 	"pools" : [
 		 ],

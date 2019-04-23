@@ -1,7 +1,7 @@
 rendering
 renderClipartFrom: texts on: html
 	| clipartIdSet chosenClipart |
-	clipartIdSet := self session clipartIdsForBrowser.
+	clipartIdSet := self clipartIds.
 
 	"render selected clipart first"
 	chosenClipart := self session browsingClipart.  "could be nil, watch out!"

@@ -1,3 +1,4 @@
-browsing
+testing
 browsingByClipart
 	^ self browseMode isByClipart
+	

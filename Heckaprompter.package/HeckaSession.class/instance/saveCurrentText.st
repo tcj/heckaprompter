@@ -1,4 +1,4 @@
-text
+support for callbacks
 saveCurrentText
 	self isLoggedIn
 		ifTrue: [ self currentText save ]

@@ -1,4 +1,4 @@
-clipart-unused
+unused
 randomSvgUrl
 	| server directoryName svgFile |
 	server := 'http://localhost/svg'.

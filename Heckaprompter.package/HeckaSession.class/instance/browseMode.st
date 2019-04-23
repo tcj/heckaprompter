@@ -1,4 +1,4 @@
 accessing
 browseMode
 
-	^ browseMode ifNil: [browseMode := HeckaBrowseByClipart on: self]
+	^ browseMode ifNil: [browseMode := HeckaBrowseByClipart instance]

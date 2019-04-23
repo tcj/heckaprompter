@@ -1,3 +1,4 @@
-browsing
+testing
 browsingByBlurb
 	^ self browseMode isByBlurb
+	

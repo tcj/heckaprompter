@@ -1,4 +1,4 @@
-text
+support for callbacks
 newRandomText
 	^ self currentText: (HeckaText 
 		newForUser: self user
