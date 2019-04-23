@@ -1,5 +1,5 @@
 rendering
-renderContentOn: html
+renderUserFilterOn: html
 	html paragraph: [
 		html text: 'show texts by:'.
 		html space.

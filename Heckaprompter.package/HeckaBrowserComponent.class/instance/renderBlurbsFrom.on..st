@@ -1,12 +1,7 @@
 rendering
 renderBlurbsFrom: texts on: html
-	| selectedClipart |
-	self flag: #sandstoneify.
-	selectedClipart := [ self session browsingClipart ]
-		on: HeckaNoSelectedTextError
-		do: [ nil ].
-	
-	selectedClipart
+"	self flag: #sandstoneify."
+	self session browsingClipart
 		ifNil: [ html space ]
 		ifNotNil: [ | textsForClipart blurbIds |
 			textsForClipart := texts select: [:text | text usesClipart: self session browsingClipart ].

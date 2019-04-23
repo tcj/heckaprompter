@@ -1,3 +1,3 @@
 rendering
 children
-	^ Array with: self userFilterComponent
+	^ Array with: self browseFilterComponent

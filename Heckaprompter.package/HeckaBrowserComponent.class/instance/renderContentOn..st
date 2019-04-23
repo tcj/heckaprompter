@@ -3,7 +3,7 @@ renderContentOn: html
 	| texts | 
 	texts := self session textsForBrowsing.
 	self renderMenuOn: html.
-	html render: self userFilterComponent.
+	html render: self browseFilterComponent.
 	
 	texts
 		ifEmpty: [ "no texts in sandstone database yet, or no texts matching selection/filter criteria"
