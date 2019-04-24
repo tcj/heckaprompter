@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 4/23/2019 17:00",
+	"instvars" : [
+		"items" ],
+	"name" : "HkHorizontalSelectionComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -58,6 +58,19 @@ a.svg:after {
 	float: left;
 	clear: none;
 }
+.hClipart {
 
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+
+}
+.horizontalScroll {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
 
 '
