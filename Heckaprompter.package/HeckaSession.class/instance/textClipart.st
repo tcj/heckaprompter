@@ -1,3 +1,3 @@
 support for uniqueid
 textClipart
-	^ self clipartRegistry clipartForId: currentText clipartId
+	^ self clipartRegistry clipartFileForId: currentText clipartId

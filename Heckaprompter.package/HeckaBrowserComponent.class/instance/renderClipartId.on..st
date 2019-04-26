@@ -1,7 +1,7 @@
 rendering
 renderClipartId: clipartId on: html
 	| svg | 
-	svg := self session clipartForId: clipartId.
+	svg := self session clipartFileForId: clipartId.
 	html anchor
 		class: 'svg';
 		callback: [ self browseClipart: svg ];

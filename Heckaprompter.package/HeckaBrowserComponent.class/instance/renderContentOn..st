@@ -4,7 +4,7 @@ renderContentOn: html
 	textCache := self session textsForBrowsing.
 	self renderMenuOn: html.
 	html render: self browseFilterComponent.
-	html render: (self hScrollTestComponent chooseFrom: self cliparts).
+	html render: (self hScrollTestComponent chooseFrom: self clipartFiles).
 	textCache
 		ifEmpty: [ "no texts in sandstone database yet, or no texts matching selection/filter criteria"
 			self renderFreshStartOn: html ]
