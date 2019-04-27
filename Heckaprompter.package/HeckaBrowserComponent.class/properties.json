@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "tcj 4/22/2019 17:44",
 	"instvars" : [
-		"hScrollTestComponent",
+		"clipartComponent",
+		"blurbComponent",
 		"browseMode",
 		"selectedUser",
 		"browseFilterComponent",

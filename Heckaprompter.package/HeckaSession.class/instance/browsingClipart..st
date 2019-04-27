@@ -1,4 +1,4 @@
-accessing
+browsing support
 browsingClipart: anObject
 
-	browsingClipart := anObject.
+	self browsing at: #clipart put: anObject.

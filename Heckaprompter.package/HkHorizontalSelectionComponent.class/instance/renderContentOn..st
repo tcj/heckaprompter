@@ -1,5 +1,5 @@
 as yet unclassified
 renderContentOn: html
 	html div
-		class: 'horizontalScroll';
+		class: 'hScroll', self browsingWhat capitalized;
 		with: [ self items do: [:item | self renderItem: item on: html ] ].

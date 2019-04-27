@@ -59,18 +59,38 @@ a.svg:after {
 	clear: none;
 }
 .hClipart {
-
     display: inline-block;
     width: 120px;
     height: 120px;
-
 }
-.horizontalScroll {
 
+.hScrollClipart {
     overflow-x: scroll;
     overflow-y: hidden;
-    white-space: nowrap;
+ /*   white-space: nowrap; */
+/*	max-height:  164px; */
+}
 
+.hScrollBlurb {
+	height: 8.5em;
+    overflow-x: scroll;
+    overflow-y: hidden;
+ /*   white-space: nowrap; */
+/*	max-height:  164px; */
+}
+
+
+.hBlurb {
+    max-width: 240px;
+    display: table-cell;
+	padding: 10px;
+    width: 200px;
+    overflow-wrap: break-word;
+/*    word-break: break-all; */
+    height: 4em;
+    white-space: pre-wrap;
+    float: left;
+	height: 100%;
 }
 
 '

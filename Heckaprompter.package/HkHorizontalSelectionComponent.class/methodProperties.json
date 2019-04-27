@@ -2,8 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"browsingWhat" : "tcj 4/26/2019 21:42",
 		"chooseFrom:" : "tcj 4/26/2019 13:33",
+		"chosenItem" : "tcj 4/26/2019 22:19",
+		"classForItem:" : "tcj 4/26/2019 22:23",
 		"items" : "tcj 4/24/2019 13:09",
 		"items:" : "tcj 4/24/2019 13:09",
-		"renderContentOn:" : "tcj 4/24/2019 13:11",
+		"renderContentOn:" : "tcj 4/26/2019 21:54",
 		"renderItem:on:" : "tcj 4/24/2019 13:10" } }

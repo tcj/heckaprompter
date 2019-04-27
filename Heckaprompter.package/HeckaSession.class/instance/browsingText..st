@@ -1,4 +1,4 @@
-accessing
+browsing support
 browsingText: anObject
 
-	browsingText := anObject.
+	self browsing at: #text put: anObject

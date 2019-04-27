@@ -1,4 +1,4 @@
-accessing
+browsing support
 browsingBlurb
 
-	^ browsingBlurb
+	^ self browsing at: #blurb ifAbsent: [ nil ]

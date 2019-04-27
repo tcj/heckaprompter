@@ -9,7 +9,7 @@ renderItem: anItem on: html
 				callback: [ self session browsingClipart: anItem ];
 				with: [ 
 					html object 
-						class: (self classForClipartFile: anItem);
+						class: (self classForItem: anItem);
 						type: 'image/svg+xml' seasideMimeType;
 						width:  100;
 						height: 100;

@@ -1,0 +1,3 @@
+styles
+chosenItemStyle
+	^  'chooserClipartItemChosen' 

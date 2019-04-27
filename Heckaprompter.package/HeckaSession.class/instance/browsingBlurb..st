@@ -1,4 +1,4 @@
-accessing
+browsing support
 browsingBlurb: anObject
 
-	browsingBlurb := anObject.
+	self browsing at: #blurb put: anObject
