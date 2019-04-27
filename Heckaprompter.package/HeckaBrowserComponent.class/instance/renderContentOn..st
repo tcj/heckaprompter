@@ -10,9 +10,6 @@ renderContentOn: html
 			self renderFreshStartOn: html ]
 		ifNotEmpty: [
 			html div 
-				class: 'clipartChooser';
-				with: [ self renderClipartFrom: textCache on: html ].
-			html div 
 				class: 'blurbChooser';
 				with: [ self renderBlurbsFrom: textCache 
 					filteredBy: [:text | text usesClipart: self session browsingClipart ]
