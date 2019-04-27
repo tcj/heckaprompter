@@ -1,4 +1,4 @@
-as yet unclassified
+stylesheets
 browserCss
 	^ '
 object {
@@ -20,7 +20,6 @@ object {
 	border-right: auto;
 	margin-top: 5px;
 	margin-bottom: 5px;
-/*	background: blue; */
 }
 
 #chosenClipart {
@@ -41,56 +40,46 @@ a.svg:after {
   left: 0;
 }
 
-.clipartChooser {
-	width: 132px;
-	height:calc(100vh - 40px);	
-	overflow-y: scroll;
-/*	background: yellow;  */
-	float: left;
-	clear: all;
-}
-
-.blurbChooser {
-	width: 220px;
-	height:calc(100vh - 40px);	
-	overflow-y: scroll;
-/*	background: yellow;  */
-	float: left;
-	clear: none;
-}
-.hClipart {
-    display: inline-block;
-    width: 120px;
-    height: 120px;
-}
-
 .hScrollClipart {
-    overflow-x: scroll;
-    overflow-y: hidden;
- /*   white-space: nowrap; */
-/*	max-height:  164px; */
+ overflow-x: scroll;
+ overflow-y: hidden;
+ white-space: nowrap;
+ max-height:  164px;
 }
 
 .hScrollBlurb {
 	height: 8.5em;
-    overflow-x: scroll;
-    overflow-y: hidden;
- /*   white-space: nowrap; */
-/*	max-height:  164px; */
+/*	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap; 
+	max-height:  164px;  */
+	display: flex;
+	overflow-x: auto;
+	flex-wrap: nowrap;
 }
 
+.hClipart {
+    display: inline-block; 
+	overflow: visible;
+    width: 120px;
+    height: 120px;
+}
 
 .hBlurb {
-    max-width: 240px;
-    display: table-cell;
+	width: 14em;
 	padding: 10px;
-    width: 200px;
-    overflow-wrap: break-word;
-/*    word-break: break-all; */
-    height: 4em;
-    white-space: pre-wrap;
-    float: left;
-	height: 100%;
+	flex: 0 0 auto;
 }
+
+/*
+a.hBlurb:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
+}
+*/
 
 '
