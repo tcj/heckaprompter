@@ -1,7 +1,6 @@
-rendering
-style
-	^ super style, 
-'
+as yet unclassified
+textEntryCss
+^ '
 figcaption {
 	text-align: right;
 }
@@ -72,6 +71,5 @@ body form {
 	text-align: center;
 	height: 8em;
 }
-
 
 '

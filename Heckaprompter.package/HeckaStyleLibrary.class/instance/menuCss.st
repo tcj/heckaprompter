@@ -1,6 +1,6 @@
-rendering
-style
-	^ '
+as yet unclassified
+menuCss
+^ '
 #hkamenu {
   background-color: aliceblue;
   width: 100%;
@@ -12,5 +12,4 @@ style
   color: gray;
   text-align: right;
 }
-
 '
