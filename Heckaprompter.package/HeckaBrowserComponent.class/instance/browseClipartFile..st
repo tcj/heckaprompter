@@ -1,0 +1,3 @@
+callbacks
+browseClipartFile: aClipartFile
+	self session browsingClipartFile: aClipartFile

@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 renderItem: anItem on: html
 	self subclassResponsibility

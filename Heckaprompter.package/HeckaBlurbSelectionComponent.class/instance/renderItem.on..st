@@ -1,9 +1,12 @@
-as yet unclassified
+rendering
 renderItem: anItem on: html
 	html div
 		class: 'hBlurb';
 		with: [
-			html anchor
-				class: 'blurbText';
-				callback: [ self session browsingBlurb: anItem ];
-				with:  anItem contents ]
+			self chosenItem = anItem
+				ifTrue: [ html text: anItem contents ]
+				ifFalse: [ 
+				html anchor
+					class: 'blurbText';
+					callback: [ self session browsingBlurb: anItem ];
+					with:  anItem contents ] ].

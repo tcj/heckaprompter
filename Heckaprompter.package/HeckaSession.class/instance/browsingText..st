@@ -1,4 +1,4 @@
 browsing support
 browsingText: anObject
 
-	self browsing at: #text put: anObject
+	self browsingSelection at: #text put: anObject

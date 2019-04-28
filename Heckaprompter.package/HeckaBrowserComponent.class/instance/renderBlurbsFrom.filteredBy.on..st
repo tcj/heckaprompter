@@ -1,7 +1,7 @@
 rendering
 renderBlurbsFrom: texts filteredBy: aFilterBlock on: html
 "	self flag: #sandstoneify."
-	self session browsingClipart
+	self session browsingClipartFile
 		ifNil: [ "no selected clipart"
 			 html space ]
 		ifNotNil: [ | textsForClipart |

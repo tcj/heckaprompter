@@ -1,4 +1,4 @@
 browsing support
 browsingText
 
-	^ self browsing at: #text ifAbsent: [ nil ]
+	^ self browsingSelection at: #text ifAbsent: [ nil ]

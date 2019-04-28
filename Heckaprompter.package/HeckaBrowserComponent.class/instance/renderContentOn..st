@@ -4,8 +4,13 @@ renderContentOn: html
 	textCache := self session textsForBrowsing.
 	self renderMenuOn: html.
 	html render: self browseFilterComponent.
-	html render: (self clipartComponent chooseFrom: self clipartFiles).
-	html render: (self blurbComponent chooseFrom: self blurbs).
+	self session browseMode caseOf: {
+		[HeckaBrowseByClipart instance] -> [
+			html render: (self clipartComponent chooseFromTexts: self textCache).
+			html render: (self blurbComponent chooseFromTexts: self textCache) ].
+		[HeckaBrowseByBlurb instance ] -> [
+			html render: (self blurbComponent chooseFromTexts: self textCache) .			
+			html render: (self clipartComponent chooseFromTexts: self textCache) ]. }.
 	textCache
 		ifEmpty: [ "no texts in sandstone database yet, or no texts matching selection/filter criteria"
 			self renderFreshStartOn: html ]

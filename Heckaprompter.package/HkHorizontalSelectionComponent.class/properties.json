@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "tcj 4/23/2019 17:00",
 	"instvars" : [
-		"items" ],
+		"texts" ],
 	"name" : "HkHorizontalSelectionComponent",
 	"pools" : [
 		 ],

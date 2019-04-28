@@ -1,3 +1,3 @@
 support for rendering
 textClipartUrl
-	^ self urlForClipartFile: self textClipart
+	^ self urlForClipartFile: self textClipartFile

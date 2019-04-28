@@ -2,11 +2,10 @@ as yet unclassified
 renderItem: anItem on: html
 	html div
 		class: 'hClipart';
-		with: ["	| svg | 
-			svg := self session clipartForId: anItem."
+		with: [
 			html anchor
 				class: 'svg';
-				callback: [ self session browsingClipart: anItem ];
+				callback: [ self session browsingClipartFile: anItem ];
 				with: [ 
 					html object 
 						class: (self classForItem: anItem);

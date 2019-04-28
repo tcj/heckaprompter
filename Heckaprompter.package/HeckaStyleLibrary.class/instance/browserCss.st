@@ -40,7 +40,7 @@ a.svg:after {
   left: 0;
 }
 
-.hScrollClipart {
+.hScrollClipartFile {
  overflow-x: scroll;
  overflow-y: hidden;
  white-space: nowrap;
@@ -49,12 +49,8 @@ a.svg:after {
 
 .hScrollBlurb {
 	height: 8.5em;
-/*	overflow-x: scroll;
-	overflow-y: hidden;
-	white-space: nowrap; 
-	max-height:  164px;  */
 	display: flex;
-	overflow-x: auto;
+	overflow-x: scroll;
 	flex-wrap: nowrap;
 }
 

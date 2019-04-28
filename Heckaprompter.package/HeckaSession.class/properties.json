@@ -16,7 +16,8 @@
 		"timeStamp",
 		"browseMode",
 		"textFilterBlock",
-		"browsing" ],
+		"browsingSelection",
+		"filterBlocks" ],
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],

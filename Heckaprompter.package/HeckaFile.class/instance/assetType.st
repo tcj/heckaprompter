@@ -1,0 +1,3 @@
+queries
+assetType
+	self subclassResponsibility

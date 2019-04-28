@@ -1,4 +1,4 @@
 browsing support
 browsingClipart: anObject
 
-	self browsing at: #clipart put: anObject.
+	self browsingSelection at: #clipart put: anObject.

@@ -4,4 +4,4 @@ initialize
 	user := HeckaLoggedOutUser instance.
 	self newRandomText.
 	timeStamp := DateAndTime now.
-	browsing := Dictionary new.
+	browsingSelection := Dictionary new.
