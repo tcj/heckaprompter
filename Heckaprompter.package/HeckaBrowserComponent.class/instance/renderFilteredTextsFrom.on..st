@@ -7,6 +7,6 @@ renderFilteredTextsFrom: texts on: html
 				ifNil: [ html space ]
 				ifNotNil: [ 
 					texts select: [:text |
-						(text usesClipart: self session browsingClipartFile)
+						(text usesClipartFile: self session browsingClipartFile)
 							and: [ text usesBlurb: self session browsingBlurb ] ]
 						thenDo: [:text | html paragraph: [ html text: text text ] ] ] ].
