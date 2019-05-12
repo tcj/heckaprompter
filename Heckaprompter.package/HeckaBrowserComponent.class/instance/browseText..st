@@ -4,4 +4,4 @@ browseText: aText
 	initial design decision, thinking I had to overcome a shortcoming in 
 	SDActiveRecord which wasn't actually there"
 	self browseClipartFile: (self session clipartRegistry clipartFileForText: aText).
-	self browseBlurb: (self session blurbForId: aText blurbId).
+	self browseBlurb: (self session blurbRegistry blurbForText: aText).
