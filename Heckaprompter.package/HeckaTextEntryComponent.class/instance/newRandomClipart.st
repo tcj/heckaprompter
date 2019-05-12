@@ -1,0 +1,3 @@
+callbacks
+newRandomClipart
+	workingText clipart: self session randomClipartFile

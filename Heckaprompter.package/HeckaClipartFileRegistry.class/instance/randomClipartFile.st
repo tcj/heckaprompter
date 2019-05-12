@@ -1,4 +1,4 @@
 as yet unclassified
-randomClipart
+randomClipartFile
 	"alias"
 	^ self randomFile

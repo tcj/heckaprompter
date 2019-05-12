@@ -7,7 +7,7 @@ renderInputOn: html
 			id: 'linedArea';
 			columns: '30';
 			rows: 4;
-			on: #text of: (self session currentText).
+			on: #text of: workingText.
 		html div
 			class: 'formButtons';
 			with: [ 

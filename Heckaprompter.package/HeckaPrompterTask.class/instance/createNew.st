@@ -1,6 +1,7 @@
 callbacks
 createNew
 	"Create and edit a new text."
-	self session newRandomText.
-
+	| newText |
+	newText := self session newRandomText.
+	self textEntryComponent edit: newText.
 	^ self call: self textEntryComponent

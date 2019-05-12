@@ -1,4 +1,4 @@
 support for uniqueid
 clipartFiles
 	self flag: #hereIsWhereTheMagicHappens.
-	^ Set withAll: (textCache collect: [:ea | self session clipartFileForId: ea clipartId ]).
+	^ Set withAll: (textCache collect: [:text | self session clipartRegistry clipartFileForText: text ]).

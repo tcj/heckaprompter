@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"workingText",
 		"theme",
 		"objectId",
+		"writeMenuComponent",
 		"clipartFile",
 		"imageWidth",
 		"blurbInfoComponent",

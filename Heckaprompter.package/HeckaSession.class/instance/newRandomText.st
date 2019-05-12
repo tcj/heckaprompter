@@ -1,6 +1,6 @@
 support for callbacks
 newRandomText
-	^ self currentText: (HeckaText 
+	^ HeckaText 
 		newForUser: self user
-		fromClipart: self randomClipart
-		andBlurb: self randomBlurb)
+		fromClipart: self randomClipartFile
+		andBlurb: self randomBlurb

@@ -1,3 +1,3 @@
 styles
 textsToAssets: aCollection
-	^ Set withAll: ( aCollection collect: [:text | self session clipartFileForId: text clipartId ] )
+	^ Set withAll: ( aCollection collect: [:text | self session clipartRegistry clipartFileForText: text ] )

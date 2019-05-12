@@ -4,3 +4,7 @@ reset
 	ClipartFileRegistry ifNotNil: [:reg | reg release ].
 	BlurbFileRegistry := nil.
 	ClipartFileRegistry := nil.
+	
+"
+HeckaSession reset
+"

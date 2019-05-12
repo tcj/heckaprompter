@@ -7,5 +7,5 @@ renderSVGObjectOn: html
 		width:  imageWidth;
 		height: imageWidth;
 		standby: 'loading image';
-		url: (self session textClipartUrl);
+		url: self textClipartUrl;
 		with: 'Your browser doesn''t support SVG'. 

@@ -2,6 +2,6 @@ initialize-release
 initialize
 	super initialize.
 	user := HeckaLoggedOutUser instance.
-	self newRandomText.
+	currentText := self newRandomText.
 	timeStamp := DateAndTime now.
 	browsingSelection := Dictionary new.
