@@ -1,3 +1,3 @@
-as yet unclassified
+queries
 primaryAssetType
 	self subclassResponsibility

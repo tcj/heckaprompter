@@ -4,11 +4,6 @@
 		"new" : "tcj 4/23/2019 09:09",
 		"reset" : "tcj 4/23/2019 09:09" },
 	"instance" : {
-		"filterBlocks" : "tcj 4/27/2019 11:31",
-		"filterBlocks:" : "tcj 4/27/2019 11:30",
-		"initialFilterBlocks" : "tcj 4/27/2019 11:30",
-		"initialize" : "tcj 4/27/2019 11:30",
 		"isByBlurb" : "tcj 4/22/2019 18:16",
 		"isByClipart" : "tcj 4/22/2019 18:15",
-		"primaryAssetType" : "tcj 4/27/2019 19:07",
-		"secondaryAssetType" : "tcj 4/27/2019 19:07" } }
+		"primaryAssetType" : "tcj 4/27/2019 19:07" } }
