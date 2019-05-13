@@ -1,13 +1,12 @@
 running
 go
-	| previousAnswer answer |
+	| answer |
 	"default behavior is to go into text entry immediately
 	to showcase the idea, whether a user is logged in or not."
 	answer := #createNew.
 
 	[ answer notNil ] whileTrue: [
-		Transcript show: answer; cr.
-		previousAnswer := answer.
+"		Transcript show: answer; cr."
 		answer := answer caseOf: {
 			[ #stayHere ] -> [ self call: self textEntryComponent ].
 			[ #aboutHeckaprompter ] -> [ self call: self aboutComponent ].
