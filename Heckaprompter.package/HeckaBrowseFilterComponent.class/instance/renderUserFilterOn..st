@@ -3,13 +3,15 @@ renderUserFilterOn: html
 	html paragraph: [
 		html text: 'show texts by:'.
 		html space.
-		html anchor
-			callback: [ self chooseEveryone ];
-			with: 'everyone'.
+		self renderAnchorText: 'everyone' 
+			enabledBlock: [ self session browsingEveryone not ] 
+			callback: [ self chooseEveryone ]
+			on: html .
 		html space.
-		html anchor
-			callback: [ self chooseMyself ];
-			with: 'myself'.
+		self renderAnchorText: 'myself'
+			enabledBlock: [ self session browsingUser ~= self session user ]
+			callback: [ self chooseMyself ]
+			on: html.
 		html space.
 		html anchor 
 			callback: [ self chooseUser ];

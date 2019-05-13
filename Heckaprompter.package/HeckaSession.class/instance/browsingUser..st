@@ -1,3 +1,3 @@
 browsing support
-browsingUser: aUser
-	self browsingSelection at: #user put: aUser
+browsingUser: anObject
+	self browsingSelection at: #user put: anObject

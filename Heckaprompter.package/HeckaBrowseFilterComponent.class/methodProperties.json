@@ -6,6 +6,7 @@
 		"chooseMyself" : "tcj 4/21/2019 18:23",
 		"chooseUser" : "tcj 4/21/2019 18:24",
 		"initialize" : "tcj 4/21/2019 18:24",
-		"renderBrowseModeSelectionOn:" : "tcj 4/27/2019 19:24",
+		"renderAnchorText:enabledBlock:callback:on:" : "tcj 5/12/2019 17:59",
+		"renderBrowseModeSelectionOn:" : "tcj 5/12/2019 18:23",
 		"renderContentOn:" : "tcj 5/6/2019 18:49",
-		"renderUserFilterOn:" : "tcj 4/22/2019 17:55" } }
+		"renderUserFilterOn:" : "tcj 5/12/2019 18:20" } }

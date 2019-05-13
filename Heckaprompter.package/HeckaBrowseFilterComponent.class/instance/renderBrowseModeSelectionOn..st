@@ -3,17 +3,13 @@ renderBrowseModeSelectionOn: html
 	html paragraph: [
 		html text: 'browse by:'.
 		html space.
-		self session browsingByBlurb
-			ifTrue: [ 
-				html anchor
-					callback: [self session browseByClipart];
-					with: 'clipart'. ]
-			ifFalse: [ html text: 'clipart' ].
+		self renderAnchorText: 'clipart'
+			enabledBlock: [ self session browsingByBlurb ]
+			callback: [self session browseByClipart]
+			on: html.
 		html space.
-		self session browsingByClipart
-			ifTrue: [ 
-				html anchor
-					callback: [ self session browseByBlurb];
-					with: 'blurb'. ]
-			ifFalse: [ html text: 'blurb' ].
+		self renderAnchorText: 'blurb'
+			enabledBlock: [self session browsingByClipart ]
+			callback: [ self session browseByBlurb]
+			on: html.
 	]

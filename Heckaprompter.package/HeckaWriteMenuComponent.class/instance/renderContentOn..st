@@ -18,7 +18,6 @@ renderContentOn: html
 					html anchor
 						callback: [ target perform: #saveAndBrowse ];
 						with: 'save and browse'. ].				
-				html tableData: [ | test |
-					test := self target = self activeComponent .
-					html text: test printString.
-					]. ] ]
+				html tableData: [html space ].
+			]
+		]

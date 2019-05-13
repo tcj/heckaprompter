@@ -1,5 +1,5 @@
 {
-	"category" : "Heckaprompter-Seaside",
+	"category" : "Heckaprompter-Seaside-Unused",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -10,7 +10,7 @@
 		"directory",
 		"directoryName",
 		"svgFileNames" ],
-	"name" : "HPSVGComponent",
+	"name" : "HkSVGComponent",
 	"pools" : [
 		 ],
 	"super" : "WAComponent",
