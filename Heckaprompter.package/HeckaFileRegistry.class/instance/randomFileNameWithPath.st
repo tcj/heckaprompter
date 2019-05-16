@@ -3,7 +3,7 @@ randomFileNameWithPath
 	| fn |
 	self flag: #uhoh.
 	fn := self randomFileName.
-	Transcript show: fn ; cr.
+	"Transcript show: fn ; cr."
 	^ ((fn findString: '/') = 0)
 		ifTrue: [
 			"Blurbs do not have their complete path in the 
