@@ -1,3 +1,0 @@
-sandstone
-defaultStore
-	^ SDFileStore new

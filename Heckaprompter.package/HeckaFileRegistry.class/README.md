@@ -1,1 +1,0 @@
-I keep a Dictionary keyed by uniqueId (currently filename) and valued by HeckaFile instances.

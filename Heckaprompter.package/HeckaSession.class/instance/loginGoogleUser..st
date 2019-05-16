@@ -4,7 +4,9 @@ loginGoogleUser: userData
 "	userData inspect."
 	person := HeckaUser 
 		find: [:p | p emailAddress = (userData at: #email)]
-		ifAbsent: [ | newUser |
-			newUser := HeckaUser newFromGoogleData: userData.
+		ifAbsent: [ | newUser fakeId |
+			"create new user"
+			fakeId := self generateNewFakeId.
+			newUser := HeckaUser newFromGoogleData: userData withFakeId: fakeId.
 			newUser save ].
 	self user: person.

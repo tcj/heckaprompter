@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"example" : "tcj 4/13/2019 20:55",
-		"newFromGoogleData:" : "tcj 4/13/2019 23:35" },
+		"newFromGoogleData:" : "tcj 4/13/2019 23:35",
+		"newFromGoogleData:withFakeId:" : "tcj 5/16/2019 12:07" },
 	"instance" : {
 		"emailAddress" : "tcj 4/13/2019 20:56",
 		"emailAddress:" : "tcj 4/13/2019 20:56",
