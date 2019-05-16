@@ -7,7 +7,7 @@ initialize
 		
 	application configuration 
 		addParent: HeckaConfiguration instance;
-		addParent: ZnOAuth2GoogleConfiguration instance.
+		addParent: OAuth2GoogleConfiguration instance.
 
 	application addLibrary: HeckaStyleLibrary.
 "

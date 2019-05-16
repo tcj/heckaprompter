@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "OAuth2GoogleConfiguration",
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }
