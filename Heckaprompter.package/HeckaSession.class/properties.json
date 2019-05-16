@@ -5,7 +5,7 @@
 	"classvars" : [
 		"BlurbFileRegistry",
 		"ClipartFileRegistry" ],
-	"commentStamp" : "",
+	"commentStamp" : "tcj 5/16/2019 22:05",
 	"instvars" : [
 		"user",
 		"clipartRegistry",
