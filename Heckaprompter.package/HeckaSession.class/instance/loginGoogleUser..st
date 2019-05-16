@@ -1,7 +1,7 @@
 users
 loginGoogleUser: userData
 	| person |
-	userData inspect.
+"	userData inspect."
 	person := HeckaUser 
 		find: [:p | p emailAddress = (userData at: #email)]
 		ifAbsent: [ | newUser |
