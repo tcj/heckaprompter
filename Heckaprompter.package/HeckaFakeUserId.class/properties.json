@@ -1,0 +1,15 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"first",
+		"last" ],
+	"name" : "HeckaFakeUserId",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
