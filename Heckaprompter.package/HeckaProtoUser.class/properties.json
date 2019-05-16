@@ -1,0 +1,16 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"shortName",
+		"fullName",
+		"fakeId" ],
+	"name" : "HeckaProtoUser",
+	"pools" : [
+		 ],
+	"super" : "SDActiveRecord",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"baseServerURL",
+		"svgFileDirectory" ],
+	"name" : "HeckaConfiguration",
+	"pools" : [
+		 ],
+	"super" : "WASystemConfiguration",
+	"type" : "normal" }

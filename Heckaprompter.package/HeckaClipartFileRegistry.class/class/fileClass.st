@@ -1,0 +1,3 @@
+protocol
+fileClass
+	^ HeckaClipartFile

@@ -1,0 +1,19 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"aboutComponent",
+		"textEntryComponent",
+		"accountComponent",
+		"browseComponent",
+		"loginComponent",
+		"nullComponent" ],
+	"name" : "HeckaPrompterTask",
+	"pools" : [
+		 ],
+	"super" : "WATask",
+	"type" : "normal" }

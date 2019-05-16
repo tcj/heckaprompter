@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"canBeRoot" : "tcj 4/17/2019 13:47",
+		"description" : "tcj 5/16/2019 03:40",
+		"initialize" : "tcj 5/15/2019 22:01",
+		"registerCallbackHandlerAt:" : "tcj 5/15/2019 22:00" },
+	"instance" : {
+		"aboutComponent" : "tcj 4/23/2019 07:37",
+		"aboutComponent:" : "tcj 4/23/2019 07:36",
+		"accountComponent" : "tcj 4/21/2019 08:49",
+		"accountComponent:" : "tcj 4/21/2019 08:49",
+		"browseComponent" : "tcj 4/21/2019 10:23",
+		"browseComponent:" : "tcj 4/17/2019 17:57",
+		"browseMode" : "tcj 4/21/2019 17:51",
+		"children" : "tcj 4/21/2019 08:51",
+		"createNew" : "tcj 5/12/2019 15:17",
+		"go" : "tcj 5/12/2019 17:09",
+		"login" : "tcj 4/21/2019 08:50",
+		"loginComponent" : "tcj 4/21/2019 10:24",
+		"loginComponent:" : "tcj 4/17/2019 17:57",
+		"logout" : "tcj 4/20/2019 12:16",
+		"nullComponent" : "tcj 4/20/2019 11:55",
+		"nullComponent:" : "tcj 4/20/2019 11:55",
+		"saveAndBrowse" : "tcj 4/22/2019 22:28",
+		"saveAndNew" : "tcj 4/21/2019 17:59",
+		"textEntryComponent" : "tcj 5/12/2019 14:04",
+		"textEntryComponent:" : "tcj 4/17/2019 17:57" } }

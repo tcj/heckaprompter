@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaBlurbFile",
+	"pools" : [
+		 ],
+	"super" : "HeckaFile",
+	"type" : "normal" }

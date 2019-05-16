@@ -1,0 +1,3 @@
+callbacks
+getNewFakeId
+	self session assignNewFakeIdToCurrentUser

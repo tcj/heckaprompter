@@ -1,0 +1,21 @@
+{
+	"category" : "Heckaprompter-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"blurbReg",
+		"clipartReg",
+		"blurbFile",
+		"clipartFile",
+		"blurb",
+		"clipart",
+		"text",
+		"user" ],
+	"name" : "HeckaTextTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

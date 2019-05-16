@@ -1,0 +1,3 @@
+callbacks
+useRealName
+	self session removeFakeIdFromCurrentUser.

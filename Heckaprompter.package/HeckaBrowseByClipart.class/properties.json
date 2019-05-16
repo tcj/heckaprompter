@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaBrowseByClipart",
+	"pools" : [
+		 ],
+	"super" : "HeckaBrowseMode",
+	"type" : "normal" }

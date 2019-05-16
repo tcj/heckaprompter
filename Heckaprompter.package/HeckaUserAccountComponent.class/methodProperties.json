@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"children" : "tcj 4/21/2019 08:59",
+		"getNewFakeId" : "tcj 5/16/2019 12:18",
+		"loginComponent" : "tcj 4/21/2019 10:24",
+		"loginComponent:" : "tcj 4/21/2019 08:58",
+		"renderAccountInfoOn:" : "tcj 5/16/2019 12:15",
+		"renderContentOn:" : "tcj 4/21/2019 09:17",
+		"useRealName" : "tcj 5/16/2019 12:19" } }
