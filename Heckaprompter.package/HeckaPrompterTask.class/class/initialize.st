@@ -10,6 +10,8 @@ initialize
 		addParent: OAuth2GoogleConfiguration instance.
 
 	application addLibrary: HeckaStyleLibrary.
+	
+	self registerCallbackHandlerAt: 'heckaoauth2'
 "
 HeckaPrompterTask initialize
 "

@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"oauthSession",
-		"userData" ],
-	"name" : "HeckaSSOGoogleOAuth2Panel",
+		 ],
+	"name" : "OAuth2CallbackHandler",
 	"pools" : [
 		 ],
-	"super" : "WAComponent",
+	"super" : "WARequestHandler",
 	"type" : "normal" }
