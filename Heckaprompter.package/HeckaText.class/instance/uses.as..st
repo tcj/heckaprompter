@@ -1,10 +1,10 @@
 testing
-uses: anAsset as: aSymbol
+uses: anObject as: aSymbol
 	aSymbol = #blurb
-		ifTrue: [ ^ self usesBlurb: anAsset ].
+		ifTrue: [ ^ self usesBlurb: anObject ].
 	aSymbol = #clipartFile
-		ifTrue: [ ^ self usesClipartFile: anAsset ].
+		ifTrue: [ ^ self usesClipartFile: anObject ].
 	aSymbol = #user
-		ifTrue: [ ^ self userId = anAsset uniqueId ].
+		ifTrue: [ ^ self writtenBy: anObject ].
 
 	self error: 'unknown asset type: ', aSymbol printString.

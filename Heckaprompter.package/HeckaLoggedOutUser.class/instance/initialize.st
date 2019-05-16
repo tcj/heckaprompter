@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
 	super initialize.
-	shortName := 'logged out'.
+	shortName := #'logged out'.
 	fullName := 'Logged Out'.
 	

@@ -1,14 +1,8 @@
-unused
+rendering
 renderText: aText on: html
-	html table: [
-		html tableRow: [ 
-			html tableData: [ 
-				html text: aText clipartId ].
-			html tableData: [ 
-				html text: aText blurbId ].
-			html tableData: [ 
-				html text: aText userId ].
-			html tableData: [ 
-				html text: aText text ].		
-		]
-	]
+	| user |
+	"aText inspect."
+	user := aText author.
+	html quote: [ html text: aText text ].
+	html break.
+	html citation: [ html text: ('{1} {2}' format: { HeckaUnicode emdash . user publicName }) ]

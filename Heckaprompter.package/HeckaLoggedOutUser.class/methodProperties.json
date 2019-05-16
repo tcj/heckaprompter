@@ -2,8 +2,8 @@
 	"class" : {
 		"instance" : "tcj 4/13/2019 20:58",
 		"new" : "tcj 4/13/2019 20:58",
-		"reset" : "tcj 4/13/2019 20:58" },
+		"reset" : "tcj 5/16/2019 16:18" },
 	"instance" : {
-		"initialize" : "tcj 4/13/2019 21:00",
+		"initialize" : "tcj 5/16/2019 16:17",
 		"isLoggedIn" : "tcj 4/13/2019 22:08",
 		"uniqueId" : "tcj 4/13/2019 21:07" } }

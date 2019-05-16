@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Model",
+	"classinstvars" : [
+		"Instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaMissingUser",
+	"pools" : [
+		 ],
+	"super" : "HeckaProtoUser",
+	"type" : "normal" }

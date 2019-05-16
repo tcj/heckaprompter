@@ -1,3 +1,3 @@
 accessing
 uniqueId
-	^ self emailAddress
+	^ self id

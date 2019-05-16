@@ -10,8 +10,4 @@ renderFilteredTextsFrom: texts on: html
 						select: [:text |
 							(text usesClipartFile: self session browsingClipartFile)
 								and: [ text usesBlurb: self session browsingBlurb ] ]
-						thenDo: [:text | | user |
-							user := HeckaUser atId: text userId ifAbsent: [ HeckaLoggedOutUser instance ].
-							html quote: [ html text: text text ].
-							html break.
-							html citation: [ html text: ('{1} {2}' format: { HeckaUnicode emdash . user publicName })  ] ] ] ].
+						thenDo: [:text | self renderText: text on: html ] ] ].

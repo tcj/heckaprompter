@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"example" : "tcj 4/13/2019 20:55",
-		"newFromGoogleData:" : "tcj 4/13/2019 23:35",
 		"newFromGoogleData:withFakeId:" : "tcj 5/16/2019 12:07" },
 	"instance" : {
 		"emailAddress" : "tcj 4/13/2019 20:56",
@@ -9,4 +8,4 @@
 		"oauthId" : "tcj 4/13/2019 15:43",
 		"oauthId:" : "tcj 4/13/2019 15:43",
 		"printOn:" : "tcj 4/13/2019 23:40",
-		"uniqueId" : "tcj 4/13/2019 15:44" } }
+		"uniqueId" : "tcj 5/16/2019 15:54" } }
