@@ -3,4 +3,4 @@ updateRoot: aHtmlRoot
 
 	super updateRoot: aHtmlRoot.
 	
-	aHtmlRoot title: 'Logging in to Heckaprompter via Google'
+	aHtmlRoot title: 'heckaprompter: login via google'
