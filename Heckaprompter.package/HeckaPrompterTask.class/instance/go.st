@@ -12,6 +12,7 @@ go
 			[ #aboutHeckaprompter ] -> [ self call: self aboutComponent ].
 			[ #accountInfo ] -> [ self call: self accountComponent ].
 			[ #browseMode ] -> [ self call: self browseComponent ].
+			[ #playMode ] -> [ self call: self playComponent ].
 			[ #createNew ] -> [ self createNew ].
 			[ #saveAndBrowse ] -> [ self saveAndBrowse ].
 			[ #saveAndNew ] -> [ self saveAndNew ].

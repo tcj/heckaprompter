@@ -1,3 +1,10 @@
 running
 children
-	^ Array with: self textEntryComponent with: self browseComponent with: self accountComponent
+	^ { 
+		self textEntryComponent .
+		self browseComponent .
+	 	self accountComponent .
+	 	self playComponent .
+		self loginComponent .
+		self nullComponent .
+	}

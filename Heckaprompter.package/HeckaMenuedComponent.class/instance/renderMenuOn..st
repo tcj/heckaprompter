@@ -30,6 +30,14 @@ renderMenuOn: html
 								html text: HeckaUnicode palette.
 								html text: ' browse'. ] ].
 				html tableHeading: [ html space ].
+				html tableHeading
+					class: 'playMode';
+					with: [
+						html anchor 
+							callback: [ self answer: #playMode ];
+							with: [
+								html text: HeckaUnicode performingArts.
+								html text: ' play '. ] ].
 				html tableHeading: [ html space ].				
 				html tableHeading
 					id: 'hkauser';
