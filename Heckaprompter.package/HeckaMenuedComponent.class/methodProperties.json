@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createNew" : "tcj 4/21/2019 08:53",
+		"browseAnchorClass" : "tcj 5/16/2019 23:11",
+		"isBrowser" : "tcj 5/16/2019 23:09",
 		"login" : "tcj 4/20/2019 11:53",
 		"logout" : "tcj 4/20/2019 11:53",
-		"renderMenuOn:" : "tcj 5/12/2019 09:59",
+		"renderMenuOn:" : "tcj 5/16/2019 23:11",
 		"renderUsernameOn:" : "tcj 5/16/2019 12:22",
 		"updateRoot:" : "tcj 4/27/2019 07:57" } }

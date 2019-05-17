@@ -13,16 +13,16 @@ renderMenuOn: html
 				html tableHeading: [ html space ].
 				html tableHeading: [ html space ].
 				html tableHeading
-					class: 'writeNew';
+					"class: 'writeNew';"
 					with: [ 
 						html anchor
-							callback: [ self createNew ];
+							callback: [ self answer: #createNew ];
 							with: [ 
 								html text: HeckaUnicode crayon.
 								html text: ' write ' ] ].
 				html tableHeading: [ html space ].
 				html tableHeading
-					class: 'browseAnchor'; 
+					class: self browseAnchorClass; 
 					with: [ 
 						html anchor 
 							callback: [ self answer: #browseMode ];
