@@ -7,7 +7,7 @@ author
 		ifTrue: [ HeckaLoggedOutUser instance ]
 		ifFalse: [ self userIdIsEmailAddress
 					ifTrue: [ 
-						Transcript show: self userId; cr.
+						"Transcript show: self userId; cr."
 						HeckaUser 
 							find: [:p | p emailAddress = self userId ]
 							ifAbsent: [ HeckaMissingUser instance ]. ]
