@@ -8,8 +8,6 @@
 	"instvars" : [
 		"clipartComponent",
 		"blurbComponent",
-		"browseMode",
-		"selectedUser",
 		"browseFilterComponent",
 		"textCache" ],
 	"name" : "HeckaBrowserComponent",
