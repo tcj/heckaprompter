@@ -20,5 +20,5 @@
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],
-	"super" : "WASession",
+	"super" : "WAExpirySession",
 	"type" : "normal" }
