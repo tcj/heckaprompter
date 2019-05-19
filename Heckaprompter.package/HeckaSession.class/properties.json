@@ -11,12 +11,9 @@
 		"clipartRegistry",
 		"blurbRegistry",
 		"currentBlurb",
-		"currentActivity",
 		"timeStamp",
 		"browseMode",
-		"textFilterBlock",
-		"browsingSelection",
-		"filterBlocks" ],
+		"browsingSelection" ],
 	"name" : "HeckaSession",
 	"pools" : [
 		 ],
