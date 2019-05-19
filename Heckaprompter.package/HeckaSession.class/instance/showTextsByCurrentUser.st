@@ -1,3 +1,3 @@
 browsing filters
 showTextsByCurrentUser
-	self browsingUser: self session user
+	self browsingUser: self user
