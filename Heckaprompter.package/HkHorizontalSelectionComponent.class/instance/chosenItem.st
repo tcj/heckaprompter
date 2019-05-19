@@ -1,3 +1,3 @@
 as yet unclassified
 chosenItem
-	^ self session browsing: self browsingWhat
+	^ self session browsingCategory: self browsingWhat
