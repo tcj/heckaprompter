@@ -1,4 +1,3 @@
 browsing support
 browsingBlurb
-
-	^ self browsingSelection at: #blurb ifAbsent: [ nil ]
+	^ self browsingCategory: #blurb

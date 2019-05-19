@@ -8,5 +8,5 @@ renderItem: anItem on: html
 				ifFalse: [ 
 				html anchor
 					class: 'blurbText';
-					callback: [ self session browsingBlurb: anItem ];
+					callback: [ self session browse: anItem ];
 					with:  anItem contents ] ].

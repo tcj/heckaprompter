@@ -1,3 +1,4 @@
 as yet unclassified
 chosenItem
-	^ self session browsing: self browsingWhat
+	"uses inheritance"
+	^ self session browsingCategory: self browsingWhat

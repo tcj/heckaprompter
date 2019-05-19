@@ -5,7 +5,7 @@ renderItem: anItem on: html
 		with: [
 			html anchor
 				class: 'svg';
-				callback: [ self session browsingClipartFile: anItem ];
+				callback: [ self session browse: anItem ];
 				with: [ 
 					html object 
 						class: (self classForItem: anItem);

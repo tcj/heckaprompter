@@ -1,4 +1,3 @@
 browsing support
 browsingText
-
-	^ self browsingSelection at: #text ifAbsent: [ nil ]
+	^ self browsingCategory: #text

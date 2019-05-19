@@ -1,5 +1,5 @@
 browsing support
 browsing: anObject
 	"not a setter"
-	"what are we browsing for that type of browsing activity"
-	^ self browsingSelection at: anObject ifAbsent: [ nil ]
+	"what have we selected for that type of browser category?"
+	^ self browsingSelection at: anObject browserCategory ifAbsent: [ nil ]

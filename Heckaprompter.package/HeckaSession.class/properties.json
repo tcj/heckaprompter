@@ -5,12 +5,11 @@
 	"classvars" : [
 		"BlurbFileRegistry",
 		"ClipartFileRegistry" ],
-	"commentStamp" : "tcj 5/16/2019 22:05",
+	"commentStamp" : "tcj 5/19/2019 14:13",
 	"instvars" : [
 		"user",
 		"clipartRegistry",
 		"blurbRegistry",
-		"currentBlurb",
 		"timeStamp",
 		"browseMode",
 		"browsingSelection" ],
