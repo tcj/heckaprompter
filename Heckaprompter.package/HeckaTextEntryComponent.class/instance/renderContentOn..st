@@ -6,7 +6,7 @@ renderContentOn: html
 		id: 'content';
 		with: [ 
 			html div
-				id: 'heckaclipart';
+				id: 'heckaTextEntry';
 				with: [ self renderClipartOn: html ].
 			self renderInputOn: html.
 	].

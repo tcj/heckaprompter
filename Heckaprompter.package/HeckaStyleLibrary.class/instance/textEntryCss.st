@@ -42,13 +42,6 @@ body form {
 	width: inherit; 
 }
 
-#heckaclipart {
-	margin: 0 auto;
-	width: 50%; 
-/*	background-color: blue; */
-	clip-path: inset(0px 0px 0px 0px);
-}
-
 #heckablurb {
 	margin: 0 auto;
 	width: 50%; 
@@ -70,6 +63,31 @@ body form {
 .blurbtext {
 	text-align: center;
 	height: 8em;
+}
+
+#heckaTextEntry {
+	margin: 0 auto;
+	width: 50%; 
+/*	background-color: blue; */
+	clip-path: inset(0px 0px 0px 0px);
+}
+
+@media (min-width: 520px) {
+	#heckaTextEntry {
+		width: 100%; 
+	}
+}
+
+@media (min-width: 735px) {
+	#heckaTextEntry {
+		width: 80%;
+	}
+}
+
+@media (min-width: 1024px) {
+	#heckaTextEntry {
+		width: 50%;
+	}
 }
 
 '
