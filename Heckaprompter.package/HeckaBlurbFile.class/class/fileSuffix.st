@@ -1,3 +1,3 @@
-as yet unclassified
+protocol
 fileSuffix
 	^ 'txt'

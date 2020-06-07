@@ -1,4 +1,4 @@
-as yet unclassified
+protocol
 fileSuffix
 	" return 'svg' or 'txt' "
 	self subclassResponsibility

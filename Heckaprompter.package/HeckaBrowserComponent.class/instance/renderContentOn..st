@@ -1,8 +1,8 @@
 rendering
 renderContentOn: html
 	"cache texts during this render phase"
+	super renderContentOn: html.
 	textCache := self session textsForBrowsing.
-	self renderMenuOn: html.
 	html render: self browseFilterComponent.
 	self session browseMode caseOf: {
 		[HeckaBrowseByClipart instance] -> [

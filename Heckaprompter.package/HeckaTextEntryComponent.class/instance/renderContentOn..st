@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	self renderMenuOn: html.
+	super renderContentOn: html.
 "	html render: self writeMenuComponent. "
 	html div
 		id: 'content';

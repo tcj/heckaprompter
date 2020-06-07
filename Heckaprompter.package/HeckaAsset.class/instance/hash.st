@@ -1,3 +1,3 @@
-as yet unclassified
+hashing
 hash
 	^ self uniqueId hash

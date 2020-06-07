@@ -1,6 +1,6 @@
 as yet unclassified
 renderContentOn: html
-	self renderMenuOn: html.
+	super renderContentOn: html.
 	html heading level: 2; with: 'heckaprompter'.
 	html heading level: 3; with: 'a web-based writing toy which is intended to be fun'.
 	html heading level: 4; with: 'copyright 2019 tim johnson.'.

@@ -1,6 +1,6 @@
 as yet unclassified
 renderContentOn: html
-	self renderMenuOn: html.
+	super renderContentOn: html.
 	html heading
 		level: 2; with: 'play mode'.
 	html heading

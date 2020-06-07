@@ -1,6 +1,6 @@
 rendering
 renderContentOn: html
-	self renderMenuOn: html.
+	super renderContentOn: html.
 	self session isLoggedIn
 		ifTrue: [ 
 			self renderAccountInfoOn: html.

@@ -1,3 +1,3 @@
-other
+unused
 assetType
 	^ #blurbFile

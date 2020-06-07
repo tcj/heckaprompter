@@ -1,3 +1,3 @@
-as yet unclassified
+words
 randomWord
 	^ self words atRandom

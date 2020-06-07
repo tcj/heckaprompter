@@ -1,3 +1,3 @@
-as yet unclassified
+words
 words
 	^ self contents findTokens: ' '

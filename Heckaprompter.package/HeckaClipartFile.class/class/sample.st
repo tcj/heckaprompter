@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 sample
 	^ self on: '/Library/WebServer/Documents/svg/moosehd.svg'
 	

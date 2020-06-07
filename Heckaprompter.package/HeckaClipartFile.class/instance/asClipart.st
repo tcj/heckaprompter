@@ -1,3 +1,3 @@
-as yet unclassified
+unused
 asClipart
 	^ HeckaClipart fromHeckaClipartFile: self
