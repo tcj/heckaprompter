@@ -1,4 +1,0 @@
-accessing
-blurbInfoId
-
-	^ blurbInfoId

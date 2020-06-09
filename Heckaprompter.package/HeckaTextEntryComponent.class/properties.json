@@ -7,15 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"workingText",
-		"theme",
-		"objectId",
 		"writeMenuComponent",
-		"clipartFile",
 		"imageWidth",
 		"blurbInfoComponent",
-		"clipartInfoComponent",
-		"clipartInfoId",
-		"blurbInfoId" ],
+		"clipartInfoComponent" ],
 	"name" : "HeckaTextEntryComponent",
 	"pools" : [
 		 ],

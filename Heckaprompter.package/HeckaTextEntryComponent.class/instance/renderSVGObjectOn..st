@@ -2,7 +2,7 @@ rendering
 renderSVGObjectOn: html
 	html object 
 		class: 'centered100';
-		id: self objectId;
+		id: #clipartSVG;
 		type: 'image/svg+xml' seasideMimeType;
 		width:  imageWidth;
 		height: imageWidth;

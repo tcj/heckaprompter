@@ -1,4 +1,0 @@
-accessing
-theme
-
-	^ theme
