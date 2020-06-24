@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 6/24/2020 05:02",
+	"instvars" : [
+		 ],
+	"name" : "HeckaTextExporter",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
