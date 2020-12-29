@@ -1,0 +1,4 @@
+accessing
+prompt
+
+	^ prompt

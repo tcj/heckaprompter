@@ -1,0 +1,15 @@
+{
+	"category" : "Heckaprompter-NewModel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 6/7/2020 07:18",
+	"instvars" : [
+		"clipart",
+		"blurb" ],
+	"name" : "HeckaPrompt",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

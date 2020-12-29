@@ -1,8 +1,6 @@
 rendering
 renderSignInOptionsOn: html
-
 	| callback url |
-
 	callback := WAActionCallback on: [ self handleCallback ] .
 	url := html actionUrl copy addField: (html callbacks store: callback).
 	url takeServerParametersFromRequest: self requestContext request.

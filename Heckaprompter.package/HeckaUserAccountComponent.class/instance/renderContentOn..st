@@ -5,8 +5,8 @@ renderContentOn: html
 		ifTrue: [ 
 			self renderAccountInfoOn: html.
 			html anchor
-				callback: [self answer: #logout];
-				with: 'logout']
+				callback: [self answer: #stayHere];
+				with: 'back to it']
 		ifFalse: [ 
 			html heading
 				level: 3; with: 'currently logged out'.

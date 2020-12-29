@@ -1,14 +1,15 @@
 {
-	"category" : "Heckaprompter-Experiments",
+	"category" : "Heckaprompter-NewModel",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "HeckaTask",
+		"prompt",
+		"blurb" ],
+	"name" : "HeckaUserContribution",
 	"pools" : [
 		 ],
-	"super" : "WATask",
+	"super" : "Object",
 	"type" : "normal" }

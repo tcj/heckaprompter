@@ -1,0 +1,4 @@
+accessing
+previousAnswer
+
+	^ previousAnswer

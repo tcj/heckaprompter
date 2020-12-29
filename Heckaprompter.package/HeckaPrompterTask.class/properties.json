@@ -12,7 +12,8 @@
 		"browseComponent",
 		"loginComponent",
 		"nullComponent",
-		"playComponent" ],
+		"playComponent",
+		"previousAnswer" ],
 	"name" : "HeckaPrompterTask",
 	"pools" : [
 		 ],

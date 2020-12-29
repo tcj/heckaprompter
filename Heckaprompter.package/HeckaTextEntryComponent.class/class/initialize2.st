@@ -1,13 +1,13 @@
 as yet unclassified
-initialize
-	| application |
+initialize2
+"	| application |
 	application := WAAdmin register: self asApplicationAt: 'heckaprompter/basic'.
 	application 
 		preferenceAt: #sessionClass put: HeckaSession.
 		
 	application configuration 
 		addParent: HeckaConfiguration instance.
-
+"
 "	application
 		preferenceAt: #scriptGeneratorClass put: JQScriptGenerator.
 	application 

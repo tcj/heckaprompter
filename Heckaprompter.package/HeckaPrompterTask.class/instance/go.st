@@ -7,6 +7,7 @@ go
 
 	[ answer notNil ] whileTrue: [
 "		Transcript show: answer; cr."
+		previousAnswer := answer.
 		answer := answer caseOf: {
 			[ #stayHere ] -> [ self call: self textEntryComponent ].
 			[ #aboutHeckaprompter ] -> [ self call: self aboutComponent ].

@@ -1,10 +1,8 @@
 actions
 gotoSignOn: aCallbackUrl
 	"Redirect to the Google signon webpage."
-	
 	| state |
-	
-	oauthSession := (WCGoogleOAuth2Session google: self oauthConsumerData)
+	oauthSession := (WCOAuth2Session google: self oauthConsumerData)
 		yourself.
 		
 	state := String streamContents: [ :stream |
@@ -18,4 +16,3 @@ gotoSignOn: aCallbackUrl
 		respond.
 
 	"code will never reach here"
-	

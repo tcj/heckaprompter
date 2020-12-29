@@ -5,8 +5,11 @@ saveAndBrowse
 	[ self saveCurrentText ]
 		on: HeckaMustBeLoggedInError
 		do: [:ex | 
-			self inform: 'Must be logged in to save.'.
-			^ self call: self textEntryComponent ].
+			(self confirm: 'Must be logged in to save.  Log in now?')
+				ifTrue: [ 
+					self login.
+					^ self saveAndBrowse ]
+				ifFalse: [ ^ self call: self textEntryComponent ] ].
 
 	self session browseText: self textEntryComponent workingText.
 	^ self call: self browseComponent.	
