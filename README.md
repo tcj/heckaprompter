@@ -21,5 +21,5 @@ Me.
 ## Acknowledgments
 
 * Friends who helped test, played, and encouraged me
-* Dr. Patricia Donahue at San Francisco State University for accepting this as my project for ITEC 333 and 899
+* Dr. Patricia Donohue at San Francisco State University for accepting this as my project for ITEC 333 and 899
 
