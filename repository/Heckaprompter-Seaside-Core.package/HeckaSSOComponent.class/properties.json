@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"responsePanel" ],
+	"name" : "HeckaSSOComponent",
+	"pools" : [
+		 ],
+	"super" : "HeckaMenuedComponent",
+	"type" : "normal" }

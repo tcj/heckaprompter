@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 4/20/2019 11:53",
+	"instvars" : [
+		 ],
+	"name" : "HeckaMenuedComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

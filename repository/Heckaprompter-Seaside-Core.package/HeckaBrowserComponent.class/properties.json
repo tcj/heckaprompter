@@ -1,0 +1,17 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tcj 4/22/2019 17:44",
+	"instvars" : [
+		"clipartComponent",
+		"blurbComponent",
+		"browseFilterComponent",
+		"textCache" ],
+	"name" : "HeckaBrowserComponent",
+	"pools" : [
+		 ],
+	"super" : "HeckaMenuedComponent",
+	"type" : "normal" }

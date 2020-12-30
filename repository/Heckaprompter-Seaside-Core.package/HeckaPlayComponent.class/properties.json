@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "HeckaPlayComponent",
+	"pools" : [
+		 ],
+	"super" : "HeckaMenuedComponent",
+	"type" : "normal" }

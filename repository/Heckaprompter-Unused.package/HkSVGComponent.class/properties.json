@@ -1,0 +1,17 @@
+{
+	"category" : "Heckaprompter-Unused",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"directory",
+		"directoryName",
+		"svgFileNames" ],
+	"name" : "HkSVGComponent",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BlurbFileRegistry",
+		"ClipartFileRegistry" ],
+	"commentStamp" : "tcj 5/19/2019 14:13",
+	"instvars" : [
+		"user",
+		"clipartRegistry",
+		"blurbRegistry",
+		"timeStamp",
+		"browseMode",
+		"browsingSelection" ],
+	"name" : "HeckaSession",
+	"pools" : [
+		 ],
+	"super" : "WASession",
+	"type" : "normal" }

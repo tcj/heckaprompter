@@ -1,0 +1,14 @@
+{
+	"category" : "Heckaprompter-Unused",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"users" ],
+	"name" : "HeckaUserRegistry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

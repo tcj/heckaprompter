@@ -1,0 +1,18 @@
+{
+	"category" : "Heckaprompter-Seaside-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"workingText",
+		"writeMenuComponent",
+		"imageWidth",
+		"blurbInfoComponent",
+		"clipartInfoComponent" ],
+	"name" : "HeckaTextEntryComponent",
+	"pools" : [
+		 ],
+	"super" : "HeckaMenuedComponent",
+	"type" : "normal" }

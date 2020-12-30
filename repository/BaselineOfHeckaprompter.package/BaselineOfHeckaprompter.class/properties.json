@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfHeckaprompter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfHeckaprompter",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
