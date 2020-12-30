@@ -5,11 +5,11 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'Heckaprompter-Experiments' with: [spec requires: 'Core'];
+				package: 'Heckaprompter-Experiments' with: [spec requires: #('Core')];
 				package: 'Heckaprompter-Model';
-				package: 'Heckaprompter-NewModel' with: [spec requires: 'Core'];
-				package: 'Heckaprompter-Tools' with: [spec requires: 'Core'];
-				package: 'Heckaprompter-Seaside-Core' with: [spec requires: 'Core'];
+				package: 'Heckaprompter-NewModel' with: [spec requires: #('Core')];
+				package: 'Heckaprompter-Tools' with: [spec requires: #('Core')];
+				package: 'Heckaprompter-Seaside-Core' with: [spec requires: #('Core')];
 				package: 'Heckaprompter-Seaside-OAuth2' with: [spec requires: #('Core' 'Seaside')].
 				
 			spec
